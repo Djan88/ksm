@@ -1,13 +1,5 @@
 <!DOCTYPE html>
-
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-
+<html lang="en"> <!--<![endif]-->
 <head>
 
 	<!-- Basic Page Needs
@@ -16,7 +8,7 @@
 
 	<meta charset="utf-8">
 
-	<title>REBUILD | Home</title>
+	<title><?php the_title(); ?></title>
 
 	<meta name="keywords" content="HTML5 Template">
 
@@ -50,93 +42,65 @@
 
     <!-- Theme Style -->
 
-    <link rel="stylesheet" href="style.css">   
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">   
 
-    <link rel="stylesheet" href="css/theme-animate.css">   
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme-animate.css">   
 
-    <link rel="stylesheet" href="css/theme-elements.css">   
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme-elements.css">   
 
-    <link rel="stylesheet" href="css/plugins.css">    
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/plugins.css">    
 
     
 
     <!-- Skin CSS -->
 
-	<link id="skin" rel="stylesheet" href="css/skins/sun.css">
+	<link id="skin" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/skins/sun.css">
 
     <!-- Icon Fonts -->
 
-    <link rel='stylesheet' href='fonts/font-awesome.min.css' type='text/css' media='screen' />    
+    <link rel='stylesheet' href='<?php bloginfo('template_url'); ?>/fonts/font-awesome.min.css' type='text/css' media='screen' />    
 
     
 
     <!-- Library Css -->
 
-    <link rel="stylesheet" href="css/skeleton.css"> 
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/skeleton.css"> 
 
-    <link rel="stylesheet" href="vendor/flexslider/flexslider.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vendor/flexslider/flexslider.css">
 
     
 
-    <link rel="stylesheet" href="vendor/isotope/isotope.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vendor/isotope/isotope.css">
 
-    <link rel="stylesheet" href="vendor/owl/owl.carousel.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vendor/owl/owl.carousel.css">
 
-    <link rel="stylesheet" href="vendor/prettyPhoto/prettyPhoto.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vendor/prettyPhoto/prettyPhoto.css">
 
-    <link rel="stylesheet" type="text/css" href="vendor/rs-plugin/css/settings.css" media="screen" /> 
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/vendor/rs-plugin/css/settings.css" media="screen" /> 
 
     
 
     <!-- Responsive Theme -->
 
-    <link rel="stylesheet" href="css/theme-responsive.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/theme-responsive.css">
 
     
 
     <!-- Library Js -->
 
-	<script src="vendor/modernizr.js"></script>
-
-    
-
-    
-
-    
-
-    <!--[if IE]>
-
-        <link rel="stylesheet" href="css/ie.css">
-
-    <![endif]-->
-
-    
-
-    <!--[if lte IE 8]>
-
-        <script src="vendor/respond.js"></script>
-
-    <![endif]-->
-
-    
-
-	<!--[if lt IE 9]>
-
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-
-	<![endif]-->
+	<script src="<?php bloginfo('template_url'); ?>/vendor/modernizr.js"></script>
 
 	<!-- Favicons
 
 	================================================== -->
 
-	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/favicon.ico">
 
-	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="<?php bloginfo('template_url'); ?>/images/apple-touch-icon.png">
 
-	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('template_url'); ?>/images/apple-touch-icon-72x72.png">
 
-	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('template_url'); ?>/images/apple-touch-icon-114x114.png">
 
 </head>  
 
@@ -157,11 +121,6 @@
 	</div>
 
     <!-- EOF Loader -->
-
-    
-
-    
-
     
 
     <!-- BOF Header -->   
@@ -244,7 +203,7 @@
 
                         <div class="jx-header-logo">
 
-                            <a href="index.html"><img src="images/header_logo.png" alt="" /></a>
+                            <a href="/"><img src="<?php bloginfo('template_url'); ?>/images/header_logo.png" alt="" /></a>
 
                          </div>
 
@@ -338,7 +297,7 @@
 
                                 <!-- Item 1 -->
 
-                                <li class="with-sub"><a href="index.html">Home</a>
+                                <li class="with-sub"><a href="/">Home</a>
 
            
 
@@ -662,7 +621,7 @@
 
                                 <!-- MAIN IMAGE -->
 
-                                <img src="images/stock-2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+                                <img src="<?php bloginfo('template_url'); ?>/images/stock-2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
 
                                 <!-- LAYERS -->
 
@@ -762,7 +721,7 @@
 
                                 <!-- MAIN IMAGE -->
 
-                                <img src="images/stock-6.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+                                <img src="<?php bloginfo('template_url'); ?>/images/stock-6.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
 
                                 <!-- LAYERS -->
 
@@ -862,7 +821,7 @@
 
                                 <!-- MAIN IMAGE -->
 
-                                <img src="images/stock-7.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <img src="<?php bloginfo('template_url'); ?>/images/stock-7.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
                                 <!-- LAYERS -->
 
@@ -1072,7 +1031,7 @@
 
                             <div class="jx-image jx-image-wrapper">
 
-                                <img src="images/stock-small-2.jpg" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/images/stock-small-2.jpg" alt="" />
 
                                 <div class="jx-image-title-over">
 
@@ -1108,7 +1067,7 @@
 
                             <div class="jx-image jx-image-wrapper">
 
-                                <img src="images/stock-small-1.jpg" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/images/stock-small-1.jpg" alt="" />
 
                                 <div class="jx-image-title-over">
 
@@ -1144,7 +1103,7 @@
 
                             <div class="jx-image jx-image-wrapper">
 
-                                <img src="images/stock-small-3.jpg" alt="" />
+                                <img src="<?php bloginfo('template_url'); ?>/images/stock-small-3.jpg" alt="" />
 
                                 <div class="jx-image-title-over">
 
@@ -1266,7 +1225,7 @@
 
                               <div class="grid-item grid-item-width2 grid-item-height2 jx-image-wrapper construction maintenance all">
 
-                                <img src="images/protfolio_1.jpg" alt="">
+                                <img src="<?php bloginfo('template_url'); ?>/images/protfolio_1.jpg" alt="">
 
                                     <div class="jx-portfolio-hoverlayer"></div>
 
@@ -1306,7 +1265,7 @@
 
                               
 
-                              <div class="grid-item grid-item-width2 grid-item-height2 jx-image-wrapper maintenance all"><img src="images/protfolio_2.jpg" alt="">
+                              <div class="grid-item grid-item-width2 grid-item-height2 jx-image-wrapper maintenance all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_2.jpg" alt="">
 
                               
 
@@ -1346,7 +1305,7 @@
 
                               </div>
 
-                              <div class="grid-item grid-item-width2 grid-item-height2 jx-image-wrapper interior woodwork all"><img src="images/protfolio_3.jpg" alt="">
+                              <div class="grid-item grid-item-width2 grid-item-height2 jx-image-wrapper interior woodwork all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_3.jpg" alt="">
 
                                 		<div class="jx-portfolio-hoverlayer"></div>
 
@@ -1380,7 +1339,7 @@
 
                               </div>
 
-                              <div class="grid-item grid-item-width2 grid-item-height2 jx-image-wrapper painting woodwork all"><img src="images/protfolio_4.jpg" alt="">
+                              <div class="grid-item grid-item-width2 grid-item-height2 jx-image-wrapper painting woodwork all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_4.jpg" alt="">
 
                                 <div class="jx-portfolio-hoverlayer"></div>
 
@@ -1418,7 +1377,7 @@
 
                               </div>
 
-                              <div class="grid-item grid-item-width2 grid-item-height2 jx-image-wrapper interior woodwork all"><img src="images/protfolio_5.jpg" alt="">
+                              <div class="grid-item grid-item-width2 grid-item-height2 jx-image-wrapper interior woodwork all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_5.jpg" alt="">
 
                                 <div class="jx-portfolio-hoverlayer"></div>
 
@@ -1458,7 +1417,7 @@
 
                               
 
-                              <div class="grid-item  jx-image-wrapper woodwork all"><img src="images/protfolio_6.jpg" alt="">
+                              <div class="grid-item  jx-image-wrapper woodwork all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_6.jpg" alt="">
 
                                 <div class="jx-portfolio-hoverlayer"></div>
 
@@ -1496,7 +1455,7 @@
 
                               </div>
 
-                              <div class="grid-item jx-image-wrapper  maintenance woodwork all"><img src="images/protfolio_7.jpg" alt="">
+                              <div class="grid-item jx-image-wrapper  maintenance woodwork all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_7.jpg" alt="">
 
                                 <div class="jx-portfolio-hoverlayer"></div>
 
@@ -1534,7 +1493,7 @@
 
                               </div>
 
-                              <div class="grid-item jx-image-wrapper interior painting all"><img src="images/protfolio_8.jpg" alt="">
+                              <div class="grid-item jx-image-wrapper interior painting all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_8.jpg" alt="">
 
                                 <div class="jx-portfolio-hoverlayer"></div>
 
@@ -1572,7 +1531,7 @@
 
                               </div>
 
-                              <div class="grid-item jx-image-wrapper interior woodwork all"><img src="images/protfolio_9.jpg" alt="">
+                              <div class="grid-item jx-image-wrapper interior woodwork all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_9.jpg" alt="">
 
                                 <div class="jx-portfolio-hoverlayer"></div>
 
@@ -1610,7 +1569,7 @@
 
                               </div>
 
-                              <div class="grid-item jx-image-wrapper maintenance woodwork all"><img src="images/protfolio_10.jpg" alt="">
+                              <div class="grid-item jx-image-wrapper maintenance woodwork all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_10.jpg" alt="">
 
                                 <div class="jx-portfolio-hoverlayer"></div>
 
@@ -1648,7 +1607,7 @@
 
                               </div>
 
-                              <div class="grid-item jx-image-wrapper interior woodwork all"><img src="images/protfolio_11.jpg" alt="">
+                              <div class="grid-item jx-image-wrapper interior woodwork all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_11.jpg" alt="">
 
                                 <div class="jx-portfolio-hoverlayer"></div>
 
@@ -1686,7 +1645,7 @@
 
                               </div>
 
-                              <div class="grid-item jx-image-wrapper interior construction all"><img src="images/protfolio_12.jpg" alt="">
+                              <div class="grid-item jx-image-wrapper interior construction all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_12.jpg" alt="">
 
                                 <div class="jx-portfolio-hoverlayer"></div>
 
@@ -1726,7 +1685,7 @@
 
                               </div>
 
-                              <div class="grid-item jx-image-wrapper woodwork all"><img src="images/protfolio_13.jpg" alt="">
+                              <div class="grid-item jx-image-wrapper woodwork all"><img src="<?php bloginfo('template_url'); ?>/images/protfolio_13.jpg" alt="">
 
                                 <div class="jx-portfolio-hoverlayer"></div>
 
@@ -2136,7 +2095,7 @@
                     <div class="eight columns">                
                             
                     <div class="jx-project-view-image">
-                    <div class="image"><img src="images/progress-1.jpg" /></div>
+                    <div class="image"><img src="<?php bloginfo('template_url'); ?>/images/progress-1.jpg" /></div>
                         <!-- Image -->
                         <div class="image-hover"></div>
                            
@@ -2189,7 +2148,7 @@
                         
                             <div class="jx-project-image">
                             
-                                <div class="image"><img src="images/progress-2.jpg"></div>
+                                <div class="image"><img src="<?php bloginfo('template_url'); ?>/images/progress-2.jpg"></div>
                         		<!-- Image -->
                                 <div class="image-hover"></div>
                                    
@@ -2232,7 +2191,7 @@
                         
                             <div class="jx-project-image">
                             
-                                <div class="image"><img src="images/progress-3.jpg"></div>
+                                <div class="image"><img src="<?php bloginfo('template_url'); ?>/images/progress-3.jpg"></div>
                         		<!-- Image -->
                                 <div class="image-hover"></div>
                                    
@@ -2276,7 +2235,7 @@
                         
                             <div class="jx-project-image">
                             
-                                <div class="image"><img src="images/progress-4.jpg"></div>
+                                <div class="image"><img src="<?php bloginfo('template_url'); ?>/images/progress-4.jpg"></div>
                         		<!-- Image -->
                                 <div class="image-hover"></div>
                                    
@@ -2490,7 +2449,7 @@
 
                         <div class="blog-item">
 
-                        	<div class="image"><img src="images/stock-3.jpg" alt="blog 1" /></div>
+                        	<div class="image"><img src="<?php bloginfo('template_url'); ?>/images/stock-3.jpg" alt="blog 1" /></div>
 
                             <div class="date-position">
 
@@ -2524,7 +2483,7 @@
 
                         <div class="blog-item">
 
-                        	<div class="image"><img src="images/stock-4.jpg" alt="blog 1" /></div>
+                        	<div class="image"><img src="<?php bloginfo('template_url'); ?>/images/stock-4.jpg" alt="blog 1" /></div>
 
                             <div class="date-position">
 
@@ -2558,7 +2517,7 @@
 
                         <div class="blog-item">
 
-                        	<div class="image"><img src="images/stock-5.jpg" alt="blog 1" /></div>
+                        	<div class="image"><img src="<?php bloginfo('template_url'); ?>/images/stock-5.jpg" alt="blog 1" /></div>
 
                             <div class="date-position">
 
@@ -2660,17 +2619,17 @@
 
                      <ul>
 
-                        <li><a href="#"><img src="images/logo-1.png" alt=""/><span>Client 01</span></a></li>
+                        <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-1.png" alt=""/><span>Client 01</span></a></li>
 
-                        <li><a href="#"><img src="images/logo-2.png" alt=""/><span>Client 02</span></a></li>
+                        <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-2.png" alt=""/><span>Client 02</span></a></li>
 
-                        <li><a href="#"><img src="images/logo-3.png" alt=""/><span>Client 03</span></a></li>
+                        <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-3.png" alt=""/><span>Client 03</span></a></li>
 
-                        <li><a href="#"><img src="images/logo-4.png" alt=""/><span>Client 04</span></a></li>
+                        <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-4.png" alt=""/><span>Client 04</span></a></li>
 
-                        <li><a href="#"><img src="images/logo-5.png" alt=""/><span>Client 05</span></a></li>
+                        <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-5.png" alt=""/><span>Client 05</span></a></li>
 
-                        <li><a href="#"><img src="images/logo-6.png" alt=""/><span>Client 06</span></a></li>
+                        <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-6.png" alt=""/><span>Client 06</span></a></li>
 
                      </ul>
 
@@ -2710,7 +2669,7 @@
 
                             <div class="jx-testimonial-details">
 
-                                <div class="jx-testimonial-image"><img src="images/team_6.jpg" alt="testimonials images" /></div>
+                                <div class="jx-testimonial-image"><img src="<?php bloginfo('template_url'); ?>/images/team_6.jpg" alt="testimonials images" /></div>
 
                                 <div class="name">Lee Marc</div>
 
@@ -2734,7 +2693,7 @@
 
                             <div class="jx-testimonial-details">
 
-                                <div class="jx-testimonial-image"><img src="images/team_5.jpg" alt="testimonials images" /></div>
+                                <div class="jx-testimonial-image"><img src="<?php bloginfo('template_url'); ?>/images/team_5.jpg" alt="testimonials images" /></div>
 
                                 <div class="name">Alex Simon</div>
 
@@ -2758,7 +2717,7 @@
 
                             <div class="jx-testimonial-details">
 
-                                <div class="jx-testimonial-image"><img src="images/team_7.jpg" alt="testimonials images" /></div>
+                                <div class="jx-testimonial-image"><img src="<?php bloginfo('template_url'); ?>/images/team_7.jpg" alt="testimonials images" /></div>
 
                                 <div class="name">Poker Ayil</div>
 
