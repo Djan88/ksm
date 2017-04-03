@@ -3361,37 +3361,37 @@
 
     
 
-	<script type="text/javascript" src="vendor/jquery.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/vendor/jquery.js"></script>
 
-    <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/plugins.js"></script>
 
-	<script type="text/javascript" src="vendor/respond.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/vendor/respond.js"></script>
 
-    <script type="text/javascript" src="vendor/jquery.appear.js"></script>    
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/vendor/jquery.appear.js"></script>    
 
-    <script type="text/javascript" src="vendor/prettyPhoto/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/vendor/prettyPhoto/jquery.prettyPhoto.js"></script>
 
-    <script type="text/javascript" src="vendor/isotope/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/vendor/isotope/jquery.isotope.min.js"></script>
 
-	<script type='text/javascript' src='vendor/form-validator/jquery.form-validator.min.js'></script>
+	<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/vendor/form-validator/jquery.form-validator.min.js'></script>
 
-    <script type="text/javascript" src="vendor/flexslider/jquery.flexslider.js"></script>	
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/vendor/flexslider/jquery.flexslider.js"></script>	
 
-    <script type="text/javascript" src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 
-    <script type="text/javascript" src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
     
 
    <!-- Home JS -->
 
-	<script src="js/custom/home.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/js/custom/home.js"></script>
 
     
 
     <!-- Theme Initializer -->
 
-	<script src="js/theme.js"></script>
+	<script src="<?php bloginfo('template_url'); ?>/js/theme.js"></script>
 
     
 
