@@ -62,20 +62,20 @@
         <div class="jx-topbar">
           <div class="container">
             <div class="eight columns left">
-              <div class="jx-left-topbar">Welcome to REBUILD . Creative HTML Template</div>
+              <div class="jx-left-topbar">Добро пожаловать на сайт нашей компании</div>
             </div>
             <!-- Left Items -->
             <div class="eight columns right">
               <div class="jx-right-topbar">
                 <div class="email left"><i class="fa fa-envelope"></i> Info@rebuild.com</div>
                   <ul class="right">
-                    <li>
+                    <!-- <li>
                       <a href="#">
                         <i class="fa fa-shopping-cart"></i>
                         <span class="cart">0</span>
                       </a>
                     </li>
-                    <li><span>$0.00</span></li>
+                    <li><span>$0.00</span></li> -->
                     <li><a href="#"><i class="fa fa-user"></i></a></li>
                     <li>
                       <a href="http://www.facebook.com/janxcode">
@@ -113,7 +113,7 @@
                 <div class="twelve columns">
                   <div class="header-info">
                     <div class="toll-free">
-                      <i class="fa fa-phone"></i> TOLL FREE
+                      <i class="fa fa-phone"></i> БЕСПЛАТНЫЙ ЗВОНОК
                     </div>
                     <ul>
                       <li class="top-space">
@@ -122,18 +122,18 @@
                         </div>
                         <div class="position">
                           <div class="location">Location</div>
-                          <div class="address">SOUTH REVEN, USA</div>
+                          <div class="address">КРЫМ, РФ</div>
                         </div>
                       </li>
                       <li class="top-space">
                         <div class="icon"><i class="fa fa-clock-o"></i></div>
                         <div class="position">
-                          <div class="time">Office Timing</div>
-                          <div class="date">SUN - FRI 8:00 - 22:00</div>
+                          <div class="time">Время работы</div>
+                          <div class="date">ПН. - ПТ. 8:00 - 18:00</div>
                         </div>
                       </li>
                       <li>
-                        <div class="toll-free-number">801 21 7600</div>
+                        <div class="toll-free-number">8 800 21 7600</div>
                       </li> 
                     </ul>
                   </div>
