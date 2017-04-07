@@ -147,6 +147,10 @@
         <div class="jx-menu-holder jx-sticky">
         	<div class="container">
             <div class="header-menu-left">
+              <?php 
+                $menu = wp_nav_menu(array('menu' => 'Main Navigation', 'container' => false, menu_class => 'nav navbar-nav navbar-right' ));
+                echo $menu;
+              ?>
               <div class="nav_container">
                 <ul id="jx-main-menu" class="menu">
                   <!-- Item 1 -->
