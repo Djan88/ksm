@@ -70,7 +70,7 @@ Version: 		1.0
 			
 		
 			//Theme Styler
-			this.themestyler();
+			// this.themestyler();
 
 		},
 
