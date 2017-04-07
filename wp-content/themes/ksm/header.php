@@ -260,23 +260,14 @@
                 <!-- MENU -->
                 <div class="header-search-right">
                   <div class="jx-header-search">
-                    <form action="#" id="search" method="post" class="jx-form-wrapper">
+                    <form role="search" class="jx-form-wrapper" method="get" id="searchform" action="<?php bloginfo('siteurl'); ?>">
                       <div id="search-input" class="search-inline-block">
-                        <input id="search_text" name="search_text" placeholder="Search" class="jx-form-name" type="text">
+                        <input id="search_text" placeholder="Что искать?" class="jx-form-name" type="text" value="" name="s" id="s">
                       </div>
                       <div id="jx-search-submit">
                         <button type="submit"><i class="fa fa-search"></i></button>
-                        <!-- Submit Button -->	
+                        <!-- Submit Button -->  
                       </div>
-                    </form>
-                    <form role="search" method="get" id="searchform" action="<?php bloginfo('siteurl'); ?>">
-                        <div id="search-input" class="search-inline-block">
-                          <input id="search_text" placeholder="Что искать?" class="jx-form-name" type="text" value="" name="s" id="s">
-                        </div>
-                        <div id="jx-search-submit">
-                          <button type="submit"><i class="fa fa-search"></i></button>
-                          <!-- Submit Button -->  
-                        </div>
                     </form>
                   </div>
                 </div>
