@@ -1,325 +1,159 @@
 <?php get_header(); ?>
-        <!-- BOF Slider -->
-
-        <div class="jx-slider">        
-
-            <div class="jx-rev-slider-holder">           
-
-               <div class="tp-banner-container home-slider-1">
-
-                    <div class="tp-banner" >
-
-                        <ul>
-
-                            <!-- SLIDE#1 -->
-
-                            <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
-
-                                <!-- MAIN IMAGE -->
-
-                                <img src="<?php bloginfo('template_url'); ?>/images/stock-2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-
-                                <!-- LAYERS -->
-
-                                
-
-                                <!-- LAYER NR. 1 -->
-
-                            <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-
-                                        data-x="-105"
-
-                                        data-y="250" 
-
-                                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-
-                                        data-speed="500"
-
-                                        data-start="800"
-
-                                        data-easing="Power3.easeInOut"
-
-                                        data-splitin="none"
-
-                                        data-splitout="none"
-
-                                        data-elementdelay="0.05"
-
-                                        data-endelementdelay="0.1"
-
-                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">THE BEST SOLUTION </div>
-
-                                        
-
-                             <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-
-                                        data-x="393"
-
-                                        data-y="250" 
-
-                                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-
-                                        data-speed="500"
-
-                                        data-start="800"
-
-                                        data-easing="Power3.easeInOut"
-
-                                        data-splitin="none"
-
-                                        data-splitout="none"
-
-                                        data-elementdelay="0.05"
-
-                                        data-endelementdelay="0.1"
-
-                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i></div>           
-
-                                        
-
-                             <!-- LAYER NR. 2 -->
-
-                            <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-
-                                        data-x="-105"
-
-                                        data-y="340" 
-
-                                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-
-                                        data-speed="500"
-
-                                        data-start="1100"
-
-                                        data-easing="Power3.easeInOut"
-
-                                        data-splitin="none"
-
-                                        data-splitout="none"
-
-                                        data-elementdelay="0.05"
-
-                                        data-endelementdelay="0.1"
-
-                                        style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.</div>
-
-                             <!-- LAYER NR. 3 -->
-
-                                                       
-
-                            </li>
-
-                            
-
-                            <!-- SLIDE#1 -->
-
-                            <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
-
-                                <!-- MAIN IMAGE -->
-
-                                <img src="<?php bloginfo('template_url'); ?>/images/stock-6.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-
-                                <!-- LAYERS -->
-
-                                
-
-                                <!-- LAYER NR. 1 -->
-
-                            <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-
-                                        data-x="-105"
-
-                                        data-y="250" 
-
-                                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-
-                                        data-speed="500"
-
-                                        data-start="800"
-
-                                        data-easing="Power3.easeInOut"
-
-                                        data-splitin="none"
-
-                                        data-splitout="none"
-
-                                        data-elementdelay="0.05"
-
-                                        data-endelementdelay="0.1"
-
-                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">CONSTRUCT WORKS</div>
-
-                                        
-
-                             <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-
-                                        data-x="396"
-
-                                        data-y="250" 
-
-                                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-
-                                        data-speed="500"
-
-                                        data-start="800"
-
-                                        data-easing="Power3.easeInOut"
-
-                                        data-splitin="none"
-
-                                        data-splitout="none"
-
-                                        data-elementdelay="0.05"
-
-                                        data-endelementdelay="0.1"
-
-                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i></div>           
-
-                                        
-
-                             <!-- LAYER NR. 2 -->
-
-                            <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-
-                                        data-x="-105"
-
-                                        data-y="340" 
-
-                                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-
-                                        data-speed="500"
-
-                                        data-start="1100"
-
-                                        data-easing="Power3.easeInOut"
-
-                                        data-splitin="none"
-
-                                        data-splitout="none"
-
-                                        data-elementdelay="0.05"
-
-                                        data-endelementdelay="0.1"
-
-                                        style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.</div>
-
-                             <!-- LAYER NR. 3 -->
-
-                                                       
-
-                            </li>
-
-                            
-
-                            <!-- SLIDE#1 -->
-
-                            <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
-
-                                <!-- MAIN IMAGE -->
-
-                                <img src="<?php bloginfo('template_url'); ?>/images/stock-7.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-                                <!-- LAYERS -->
-
-                                
-
-                                <!-- LAYER NR. 1 -->
-
-                            <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-
-                                        data-x="-105"
-
-                                        data-y="250" 
-
-                                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-
-                                        data-speed="500"
-
-                                        data-start="800"
-
-                                        data-easing="Power3.easeInOut"
-
-                                        data-splitin="none"
-
-                                        data-splitout="none"
-
-                                        data-elementdelay="0.05"
-
-                                        data-endelementdelay="0.1"
-
-                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">MODERN BUILDINGS</div>
-
-                                        
-
-                             <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-
-                                        data-x="396"
-
-                                        data-y="250" 
-
-                                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-
-                                        data-speed="500"
-
-                                        data-start="800"
-
-                                        data-easing="Power3.easeInOut"
-
-                                        data-splitin="none"
-
-                                        data-splitout="none"
-
-                                        data-elementdelay="0.05"
-
-                                        data-endelementdelay="0.1"
-
-                                        style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i></div>           
-
-                                        
-
-                             <!-- LAYER NR. 2 -->
-
-                            <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-
-                                        data-x="-105"
-
-                                        data-y="340" 
-
-                                        data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-
-                                        data-speed="500"
-
-                                        data-start="1100"
-
-                                        data-easing="Power3.easeInOut"
-
-                                        data-splitin="none"
-
-                                        data-splitout="none"
-
-                                        data-elementdelay="0.05"
-
-                                        data-endelementdelay="0.1"
-
-                                        style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.</div>
-
-                             <!-- LAYER NR. 3 -->
-
-                                                       
-
-                            </li>                                              
-
-                                             
-
-                        </ul>
-
-                    </div>
-
-                </div>   
-
-            </div>                 
-
-        </div>    
+<!-- BOF Slider -->
+<div class="jx-slider">        
+  <div class="jx-rev-slider-holder">           
+    <div class="tp-banner-container home-slider-1">
+      <div class="tp-banner" >
+        <ul>
+          <!-- SLIDE#1 -->
+          <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
+            <!-- MAIN IMAGE -->
+            <img src="<?php bloginfo('template_url'); ?>/images/stock-2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+            <!-- LAYERS -->
+            <!-- LAYER NR. 1 -->
+            <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+              data-x="-105"
+              data-y="250" 
+              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+              data-speed="500"
+              data-start="800"
+              data-easing="Power3.easeInOut"
+              data-splitin="none"
+              data-splitout="none"
+              data-elementdelay="0.05"
+              data-endelementdelay="0.1"
+              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">THE BEST SOLUTION 
+            </div>
+            <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+              data-x="393"
+              data-y="250" 
+              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+              data-speed="500"
+              data-start="800"
+              data-easing="Power3.easeInOut"
+              data-splitin="none"
+              data-splitout="none"
+              data-elementdelay="0.05"
+              data-endelementdelay="0.1"
+              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
+            </div>           
+            <!-- LAYER NR. 2 -->
+            <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+              data-x="-105"
+              data-y="340" 
+              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+              data-speed="500"
+              data-start="1100"
+              data-easing="Power3.easeInOut"
+              data-splitin="none"
+              data-splitout="none"
+              data-elementdelay="0.05"
+              data-endelementdelay="0.1"
+              style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.
+            </div>
+            <!-- LAYER NR. 3 -->
+          </li>
+          <!-- SLIDE#1 -->
+          <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
+            <!-- MAIN IMAGE -->
+          <img src="<?php bloginfo('template_url'); ?>/images/stock-6.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+          <!-- LAYERS -->
+            <!-- LAYER NR. 1 -->
+            <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+              data-x="-105"
+              data-y="250" 
+              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+              data-speed="500"
+              data-start="800"
+              data-easing="Power3.easeInOut"
+              data-splitin="none"
+              data-splitout="none"
+              data-elementdelay="0.05"
+              data-endelementdelay="0.1"
+              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">CONSTRUCT WORKS
+            </div>
+            <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+              data-x="396"
+              data-y="250" 
+              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+              data-speed="500"
+              data-start="800"
+              data-easing="Power3.easeInOut"
+              data-splitin="none"
+              data-splitout="none"
+              data-elementdelay="0.05"
+              data-endelementdelay="0.1"
+              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
+            </div>
+            <!-- LAYER NR. 2 -->
+            <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+              data-x="-105"
+              data-y="340" 
+              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+              data-speed="500"
+              data-start="1100"
+              data-easing="Power3.easeInOut"
+              data-splitin="none"
+              data-splitout="none"
+              data-elementdelay="0.05"
+              data-endelementdelay="0.1"
+              style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.
+            </div>
+            <!-- LAYER NR. 3 -->
+          </li>
+            <!-- SLIDE#1 -->
+          <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
+          <!-- MAIN IMAGE -->
+            <img src="<?php bloginfo('template_url'); ?>/images/stock-7.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+            <!-- LAYERS -->
+            <!-- LAYER NR. 1 -->
+            <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+              data-x="-105"
+              data-y="250" 
+              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+              data-speed="500"
+              data-start="800"
+              data-easing="Power3.easeInOut"
+              data-splitin="none"
+              data-splitout="none"
+              data-elementdelay="0.05"
+              data-endelementdelay="0.1"
+              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">MODERN BUILDINGS
+            </div>
+            <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+              data-x="396"
+              data-y="250" 
+              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+              data-speed="500"
+              data-start="800"
+              data-easing="Power3.easeInOut"
+              data-splitin="none"
+              data-splitout="none"
+              data-elementdelay="0.05"
+              data-endelementdelay="0.1"
+              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
+            </div>           
+            <!-- LAYER NR. 2 -->
+            <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+              data-x="-105"
+              data-y="340" 
+              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+              data-speed="500"
+              data-start="1100"
+              data-easing="Power3.easeInOut"
+              data-splitin="none"
+              data-splitout="none"
+              data-elementdelay="0.05"
+              data-endelementdelay="0.1"
+              style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.
+            </div>
+            <!-- LAYER NR. 3 -->
+          </li>                                              
+        </ul>
+      </div>
+    </div>   
+  </div>                 
+</div>    
 
         <!-- BOF Slider -->
 
