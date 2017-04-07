@@ -121,7 +121,7 @@
                           <i class="fa fa-map-marker"></i>
                         </div>
                         <div class="position">
-                          <div class="location">Location</div>
+                          <div class="location">Месторасположение</div>
                           <div class="address">КРЫМ, РФ</div>
                         </div>
                       </li>
@@ -133,7 +133,7 @@
                         </div>
                       </li>
                       <li>
-                        <div class="toll-free-number">8 800 21 7600</div>
+                        <div class="toll-free-number">8 800 21 76 00</div>
                       </li> 
                     </ul>
                   </div>
