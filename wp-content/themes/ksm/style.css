@@ -4206,7 +4206,7 @@ div.pp_overlay {
 
 
 
-.menu li.with-sub:after {
+.menu li.with-sub:after,.menu li.menu-item-has-children:after {
 
   content:'\f107';
 
@@ -4318,7 +4318,7 @@ div.pp_overlay {
 
 }
 
-.menu > li > .submenu {
+.menu > li > .submenu, .menu > li > .sub-menu {
 
   top: 56px;
 
@@ -4330,7 +4330,7 @@ div.pp_overlay {
 
 
 
-.menu > li > .submenu{
+.menu > li > .submenu, .menu > li > .sub-menu{
 
   	visibility: hidden;
 
@@ -4350,7 +4350,7 @@ div.pp_overlay {
 
 
 
-.menu > li:hover > .submenu{
+.menu > li:hover > .submenu, .menu > li:hover > .sub-menu{
 
 	visibility: visible;
 
@@ -4374,7 +4374,7 @@ div.pp_overlay {
 
 
 
-.menu > li:hover >.submenu > li.col > ul {
+.menu > li:hover >.submenu > li.col > ul, .menu > li > .sub-menu > li > ul {
 
 	display:block
 
@@ -4386,7 +4386,7 @@ div.pp_overlay {
 
 }
 
-.menu li .submenu li.col {
+.menu li .submenu li.col, .menu li .sub-menu li {
 
 	width:235px;
 
@@ -4394,7 +4394,7 @@ div.pp_overlay {
 
 }
 
-.menu li .submenu li.col ul {
+.menu li .submenu li.col ul, .menu li .sub-menu li ul {
 
 	padding:0;
 
@@ -4404,7 +4404,7 @@ div.pp_overlay {
 
 }
 
-.menu li .submenu li.col ul li {
+.menu li .submenu li.col ul li, .menu li .sub-menu li ul li {
 
 	list-style:none;
 
@@ -4416,7 +4416,7 @@ div.pp_overlay {
 
 	}
 
-.menu .submenu li:hover > a {
+.menu .submenu li:hover > a, .menu .sub-menu li:hover a {
 
   	color: #333 !important;
 
@@ -4424,7 +4424,7 @@ div.pp_overlay {
 
 }
 
-.menu li .submenu a {
+.menu li .submenu a, .menu .sub-menu a {
 
 	background: none;
 
@@ -4442,13 +4442,13 @@ div.pp_overlay {
 
 
 
-.menu .submenu li:last-child {
+.menu .submenu li:last-child, .menu .sub-menu li:last-child {
 
   border-bottom: 0px solid #262829;
 
 }
 
-.submenu li.col ul li:hover {
+.submenu li.col ul li:hover, .sub-menu li ul li:hover {
 
 	background: none;
 
@@ -4456,7 +4456,7 @@ div.pp_overlay {
 
 /* Submenu 2nd level drop down */
 
-.submenu li li ul {
+.submenu li li ul, .sub-menu  li li ul{
 
   	visibility: hidden;
 
@@ -4486,7 +4486,7 @@ div.pp_overlay {
 
 }
 
-.submenu li li:hover ul {
+.submenu li li:hover ul, .sub-menu li li:hover ul{
 
   	opacity:1;
 
@@ -4506,7 +4506,7 @@ div.pp_overlay {
 
 }
 
-.menu li.has-child >  a:after {
+.menu li.has-child >  a:after{
 
   content:'\f105';
 
