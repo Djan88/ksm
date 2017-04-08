@@ -4425,18 +4425,13 @@ div.pp_overlay {
 }
 
 .menu li .submenu a, .menu .sub-menu a {
-
 	background: none;
-
 	color: #ffb300;
-
 	padding: 9px 20px;
-
 	display: block;
-
 	float: none;
-
 	font-weight: 500;
+  width: 100%;
 
 }
 
