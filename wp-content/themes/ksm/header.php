@@ -147,11 +147,11 @@
         <div class="jx-menu-holder jx-sticky">
         	<div class="container">
             <div class="header-menu-left">
-              <?php 
-                $menu = wp_nav_menu(array('menu' => 'Main Navigation', 'container' => false, menu_class => 'menu' ));
-                echo $menu;
-              ?>
               <div class="nav_container">
+                <?php 
+                  $menu = wp_nav_menu(array('menu' => 'Main Navigation', 'container' => false, menu_class => 'menu' ));
+                  echo $menu;
+                ?>
                 <ul id="jx-main-menu" class="menu">
                   <!-- Item 1 -->
                   <li class="with-sub"><a href="/">Home</a>
