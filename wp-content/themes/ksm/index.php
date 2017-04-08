@@ -1,231 +1,186 @@
 <?php get_header(); ?>
-<!-- BOF Slider -->
-<div class="jx-slider">        
-  <div class="jx-rev-slider-holder">           
-    <div class="tp-banner-container home-slider-1">
-      <div class="tp-banner" >
-        <ul>
-          <!-- SLIDE#1 -->
-          <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
-            <!-- MAIN IMAGE -->
-            <img src="<?php bloginfo('template_url'); ?>/images/stock-2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-            <!-- LAYERS -->
-            <!-- LAYER NR. 1 -->
-            <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-              data-x="-105"
-              data-y="250" 
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="500"
-              data-start="800"
-              data-easing="Power3.easeInOut"
-              data-splitin="none"
-              data-splitout="none"
-              data-elementdelay="0.05"
-              data-endelementdelay="0.1"
-              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">КОЛЕСНЫЙ ЭКСКАВАТОР 
-            </div>
-            <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-              data-x="393"
-              data-y="250" 
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="500"
-              data-start="800"
-              data-easing="Power3.easeInOut"
-              data-splitin="none"
-              data-splitout="none"
-              data-elementdelay="0.05"
-              data-endelementdelay="0.1"
-              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
-            </div>           
-            <!-- LAYER NR. 2 -->
-            <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-              data-x="-105"
-              data-y="340" 
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="500"
-              data-start="1100"
-              data-easing="Power3.easeInOut"
-              data-splitin="none"
-              data-splitout="none"
-              data-elementdelay="0.05"
-              data-endelementdelay="0.1"
-              style="z-index: 9">Колесный экскаватор представляет собой мощную и высокопроизводительную<br>спецтехнику, отличающуюся внушительными габаритами и решающую большой<br>спектр рабочих вопросов и задач. Его применяют в разработке котлованов и<br> карьеров, выкапывании ям и траншей, создании насыпей, а также в погрузке и<br>разгрузке различных типов строительных материалов.
-            </div>
-            <!-- LAYER NR. 3 -->
-          </li>
-          <!-- SLIDE#1 -->
-          <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
-            <!-- MAIN IMAGE -->
-          <img src="<?php bloginfo('template_url'); ?>/images/stock-6.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-          <!-- LAYERS -->
-            <!-- LAYER NR. 1 -->
-            <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-              data-x="-105"
-              data-y="250" 
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="500"
-              data-start="800"
-              data-easing="Power3.easeInOut"
-              data-splitin="none"
-              data-splitout="none"
-              data-elementdelay="0.05"
-              data-endelementdelay="0.1"
-              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">ЭКСКАВАТОР ПОГРУЗЧИК
-            </div>
-            <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-              data-x="396"
-              data-y="250" 
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="500"
-              data-start="800"
-              data-easing="Power3.easeInOut"
-              data-splitin="none"
-              data-splitout="none"
-              data-elementdelay="0.05"
-              data-endelementdelay="0.1"
-              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
-            </div>
-            <!-- LAYER NR. 2 -->
-            <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-              data-x="-105"
-              data-y="340" 
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="500"
-              data-start="1100"
-              data-easing="Power3.easeInOut"
-              data-splitin="none"
-              data-splitout="none"
-              data-elementdelay="0.05"
-              data-endelementdelay="0.1"
-              style="z-index: 9">Предоставим в аренду надежные экскаваторы-погрузчики и телескопические<br>погрузчики лучших производителей: CASE, JCB и JLG. Средний возраст<br>нашей техники 3 года. Опыт работы машинистов – от 7 лет.
-            </div>
-            <!-- LAYER NR. 3 -->
-          </li>
+  <!-- BOF Slider -->
+  <div class="jx-slider">        
+    <div class="jx-rev-slider-holder">           
+      <div class="tp-banner-container home-slider-1">
+        <div class="tp-banner" >
+          <ul>
             <!-- SLIDE#1 -->
-          <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
-          <!-- MAIN IMAGE -->
-            <img src="<?php bloginfo('template_url'); ?>/images/stock-7.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+            <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
+              <!-- MAIN IMAGE -->
+              <img src="<?php bloginfo('template_url'); ?>/images/stock-2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+              <!-- LAYERS -->
+              <!-- LAYER NR. 1 -->
+              <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+                data-x="-105"
+                data-y="250" 
+                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="800"
+                data-easing="Power3.easeInOut"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.05"
+                data-endelementdelay="0.1"
+                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">КОЛЕСНЫЙ ЭКСКАВАТОР 
+              </div>
+              <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+                data-x="393"
+                data-y="250" 
+                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="800"
+                data-easing="Power3.easeInOut"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.05"
+                data-endelementdelay="0.1"
+                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
+              </div>           
+              <!-- LAYER NR. 2 -->
+              <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+                data-x="-105"
+                data-y="340" 
+                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="1100"
+                data-easing="Power3.easeInOut"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.05"
+                data-endelementdelay="0.1"
+                style="z-index: 9">Колесный экскаватор представляет собой мощную и высокопроизводительную<br>спецтехнику, отличающуюся внушительными габаритами и решающую большой<br>спектр рабочих вопросов и задач. Его применяют в разработке котлованов и<br> карьеров, выкапывании ям и траншей, создании насыпей, а также в погрузке и<br>разгрузке различных типов строительных материалов.
+              </div>
+              <!-- LAYER NR. 3 -->
+            </li>
+            <!-- SLIDE#1 -->
+            <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
+              <!-- MAIN IMAGE -->
+            <img src="<?php bloginfo('template_url'); ?>/images/stock-6.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
             <!-- LAYERS -->
-            <!-- LAYER NR. 1 -->
-            <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-              data-x="-105"
-              data-y="250" 
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="500"
-              data-start="800"
-              data-easing="Power3.easeInOut"
-              data-splitin="none"
-              data-splitout="none"
-              data-elementdelay="0.05"
-              data-endelementdelay="0.1"
-              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">АРЕНДА САМОСВАЛА
-            </div>
-            <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-              data-x="396"
-              data-y="250" 
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="500"
-              data-start="800"
-              data-easing="Power3.easeInOut"
-              data-splitin="none"
-              data-splitout="none"
-              data-elementdelay="0.05"
-              data-endelementdelay="0.1"
-              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
-            </div>           
-            <!-- LAYER NR. 2 -->
-            <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-              data-x="-105"
-              data-y="340" 
-              data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-              data-speed="500"
-              data-start="1100"
-              data-easing="Power3.easeInOut"
-              data-splitin="none"
-              data-splitout="none"
-              data-elementdelay="0.05"
-              data-endelementdelay="0.1"
-              style="z-index: 9">Мы можем предложить Вам услуги самосвалов на базе импортной и российской<br>техники различной грузоподъёмности от 15 до 25 тонн. Автомобиль снабжен<br>механизмом подъема и опускания платформы. Управление механизмом<br>электропневматическое, дистанционное из кабины водителя.<br>Гидроцилиндр — телескопический, трехступенчатый.
-            </div>
-            <!-- LAYER NR. 3 -->
-          </li>                                              
-        </ul>
+              <!-- LAYER NR. 1 -->
+              <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+                data-x="-105"
+                data-y="250" 
+                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="800"
+                data-easing="Power3.easeInOut"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.05"
+                data-endelementdelay="0.1"
+                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">ЭКСКАВАТОР ПОГРУЗЧИК
+              </div>
+              <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+                data-x="396"
+                data-y="250" 
+                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="800"
+                data-easing="Power3.easeInOut"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.05"
+                data-endelementdelay="0.1"
+                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
+              </div>
+              <!-- LAYER NR. 2 -->
+              <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+                data-x="-105"
+                data-y="340" 
+                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="1100"
+                data-easing="Power3.easeInOut"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.05"
+                data-endelementdelay="0.1"
+                style="z-index: 9">Предоставим в аренду надежные экскаваторы-погрузчики и телескопические<br>погрузчики лучших производителей: CASE, JCB и JLG. Средний возраст<br>нашей техники 3 года. Опыт работы машинистов – от 7 лет.
+              </div>
+              <!-- LAYER NR. 3 -->
+            </li>
+              <!-- SLIDE#1 -->
+            <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
+            <!-- MAIN IMAGE -->
+              <img src="<?php bloginfo('template_url'); ?>/images/stock-7.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+              <!-- LAYERS -->
+              <!-- LAYER NR. 1 -->
+              <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+                data-x="-105"
+                data-y="250" 
+                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="800"
+                data-easing="Power3.easeInOut"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.05"
+                data-endelementdelay="0.1"
+                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">АРЕНДА САМОСВАЛА
+              </div>
+              <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+                data-x="396"
+                data-y="250" 
+                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="800"
+                data-easing="Power3.easeInOut"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.05"
+                data-endelementdelay="0.1"
+                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
+              </div>           
+              <!-- LAYER NR. 2 -->
+              <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
+                data-x="-105"
+                data-y="340" 
+                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                data-speed="500"
+                data-start="1100"
+                data-easing="Power3.easeInOut"
+                data-splitin="none"
+                data-splitout="none"
+                data-elementdelay="0.05"
+                data-endelementdelay="0.1"
+                style="z-index: 9">Мы можем предложить Вам услуги самосвалов на базе импортной и российской<br>техники различной грузоподъёмности от 15 до 25 тонн. Автомобиль снабжен<br>механизмом подъема и опускания платформы. Управление механизмом<br>электропневматическое, дистанционное из кабины водителя.<br>Гидроцилиндр — телескопический, трехступенчатый.
+              </div>
+              <!-- LAYER NR. 3 -->
+            </li>                                              
+          </ul>
+        </div>
+      </div>   
+    </div>                 
+  </div>    
+  <!-- BOF Slider -->
+</header>     
+<!-- EOF Main Menu -->
+<!-- BOF Main Content -->
+<div role="main" class="main no-top-padding">
+  <!--  BOF TAGLINE ACTION BOX  # 2 -->
+  <div class="jx-container">                
+    <div class="jx-tagline-box-3">
+      <div class="jx-shape-left"></div>
+      <div class="jx-shape-right"></div>
+      <div class="container"> 
+        <div class="thirteen columns">
+          <div class="box-content">
+            <h4>СПЕЦТЕХНИКА В АРЕНДУ</h4>
+          </div>
+          <!-- Content -->
+        </div>
+        <div class="three columns">
+          <div class="button">УЗНАТЬ БОЛЬШЕ</div>
+          <!-- Button -->
+        </div>            
       </div>
-    </div>   
-  </div>                 
-</div>    
-
-        <!-- BOF Slider -->
-
-        
-
-	</header>     
-
-    
-
-    <!-- EOF Main Menu -->
-
-    
-
-    <!-- BOF Main Content -->
-
-    <div role="main" class="main no-top-padding">
-
-    
-
-        
-
-        
-
-        <!--  BOF TAGLINE ACTION BOX  # 2 -->
-
-            <div class="jx-container">                
-
-                <div class="jx-tagline-box-3">
-
-                	<div class="jx-shape-left"></div>
-
-                    <div class="jx-shape-right"></div>
-
-                    <div class="container"> 
-
-                        <div class="thirteen columns">
-
-                            <div class="box-content">
-
-                                <h4>LET'S GO BEHIND THE FUTURE WITH BUXCORP</h4>
-
-                            </div>
-
-                        <!-- Content -->
-
-                        </div>
-
-                        <div class="three columns">
-
-                            <div class="button">LEARN MORE</div>
-
-                            <!-- Button -->
-
-                        </div>            
-
-                    </div>
-
-                </div> 
-
-            </div>
-
-    
-
-         <!--  BOF TAGLINE ACTION BOX  # 2 -->
-
-        
-
-        <!-- BDF SERVICES BOX STYLE # 1 -->
-
-        
-
-        <div class="jx-container jx-padding jx-grey-bg">
+    </div> 
+  </div>
+  <!--  BOF TAGLINE ACTION BOX  # 2 -->
+  <!-- BDF SERVICES BOX STYLE # 1 -->
+  <div class="jx-container jx-padding jx-grey-bg">
 
             <div class="container">
 
@@ -239,13 +194,13 @@
 
                         <div class="jx-left-border"></div>
 
-                        <div class="jx-title jx-uppercase">What We Do</div>
+                        <div class="jx-title jx-uppercase">Чем мы занимаемся?</div>
 
                         <div class="jx-right-border"></div>
 
                     </div>
 
-                    <div class="jx-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>  
+                    <div class="jx-subtitle">Наша Корпорация предоставляет специальную технику для простых и сложных технических работ. Вы можете воспользоваться экскаватором, автокраном, манипулятором, самосвалом и т.д.</div>  
 
                 </div> 
 
@@ -265,7 +220,7 @@
 
                                 <div class="jx-image-title-over">
 
-                                    <a href="construction-managments.html"><div class="jx-title">Constructions Management <span><i class="fa fa-chevron-right"></i></span></div></a>                            
+                                    <a href="construction-managments.html"><div class="jx-title">Поднимаем и перемещаем <span><i class="fa fa-chevron-right"></i></span></div></a>                            
 
                                 </div>
 
@@ -301,7 +256,7 @@
 
                                 <div class="jx-image-title-over">
 
-                                    <a href="carpentry.html"><div class="jx-title">Carpentry <span><i class="fa fa-chevron-right"></i></span></div></a>                            
+                                    <a href="carpentry.html"><div class="jx-title">Собираем и грузим<span><i class="fa fa-chevron-right"></i></span></div></a>                            
 
                                 </div>
 
@@ -337,7 +292,7 @@
 
                                 <div class="jx-image-title-over">
 
-                                    <a href="tiling-painting.html"><div class="jx-title">Tiles and Painting <span><i class="fa fa-chevron-right"></i></span></div></a>                            
+                                    <a href="tiling-painting.html"><div class="jx-title">Роем и выравниваем <span><i class="fa fa-chevron-right"></i></span></div></a>                            
 
                                 </div>
 
