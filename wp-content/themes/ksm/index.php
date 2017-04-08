@@ -1044,7 +1044,7 @@
 
                             <div class="servicelist-item"> 
 
-                            	<div class="icon"><div><i class="stream-icon stream-icon-settings"></i></div></div>
+                            	<div class="icon"><div><i class="stream-icon stream-icon-settings-streamline"></i></div></div>
 
                            		<!-- Servicelist Icon -->
 
