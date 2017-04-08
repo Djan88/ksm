@@ -1218,7 +1218,7 @@
 
                             <div class="servicelist-item"> 
 
-                                <div class="icon"><div><i class="stream-icon stream-icon-rocket"></i></div></div>
+                                <div class="icon"><div><i class="stream-icon stream-icon-meter"></i></div></div>
 
                                 <!-- Servicelist Icon -->
 
