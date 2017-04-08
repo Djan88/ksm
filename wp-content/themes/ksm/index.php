@@ -336,7 +336,7 @@
 
         
 
-       <div class="jx-container jx-white-bg jx-container-badge hidden">
+       <div class="jx-container jx-white-bg jx-container-badge hidd">
 
         
 
@@ -962,7 +962,7 @@
 
         <!-- BOF COUNTER UP STYLE #2 -->
 
-       	<div  class="jx-container jx-grey-bg jx-padding hidden">
+       	<div  class="jx-container jx-grey-bg jx-padding hidd">
 
 				<div class="jx-shape-left jx-shape-small"></div>            
 

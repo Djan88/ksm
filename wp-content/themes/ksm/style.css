@@ -79,7 +79,10 @@ img {
   height: auto;
 
 }
-
+.hidd
+{
+  display: none;
+}
 	
 
 /* #Reset & Basics (Inspired by E. Meyers)================================================== */
