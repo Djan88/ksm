@@ -1112,7 +1112,7 @@
 
                             <div class="servicelist-item"> 
 
-                                <div class="icon"><div><i class="stream-icon stream-icon-settings-1"></i></div></div>
+                                <div class="icon"><div><i class="stream-icon stream-icon-settings-streamline-2"></i></div></div>
 
                                 <!-- Servicelist Icon -->
 
