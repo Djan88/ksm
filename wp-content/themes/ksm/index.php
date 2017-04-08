@@ -1044,7 +1044,7 @@
 
                             <div class="servicelist-item"> 
 
-                            	<div class="icon"><div><i class="stream-icon stream-icon-bulb"></i></div></div>
+                            	<div class="icon"><div><i class="stream-icon stream-icon-truck"></i></div></div>
 
                            		<!-- Servicelist Icon -->
 
@@ -1218,7 +1218,7 @@
 
                             <div class="servicelist-item"> 
 
-                                <div class="icon"><div><i class="stream-icon stream-icon-meter"></i></div></div>
+                                <div class="icon"><div><i class="stream-icon stream-icon-dashboard-speed-streamline"></i></div></div>
 
                                 <!-- Servicelist Icon -->
 
