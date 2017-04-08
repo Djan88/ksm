@@ -148,7 +148,7 @@
         	<div class="container">
             <div class="header-menu-left">
               <?php 
-                $menu = wp_nav_menu(array('menu' => 'Main Navigation', 'container' => false, menu_class => 'nav navbar-nav navbar-right' ));
+                $menu = wp_nav_menu(array('menu' => 'Main Navigation', 'container' => false, menu_class => 'menu' ));
                 echo $menu;
               ?>
               <div class="nav_container">
