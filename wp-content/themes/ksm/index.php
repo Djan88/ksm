@@ -22,7 +22,7 @@
               data-splitout="none"
               data-elementdelay="0.05"
               data-endelementdelay="0.1"
-              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">THE BEST SOLUTION 
+              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">КОЛЕСНЫЙ ЭКСКАВАТОР 
             </div>
             <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
               data-x="393"
@@ -49,7 +49,7 @@
               data-splitout="none"
               data-elementdelay="0.05"
               data-endelementdelay="0.1"
-              style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.
+              style="z-index: 9">Колесный экскаватор представляет собой мощную и высокопроизводительную спецтехнику, отличающуюся внушительными габаритами и решающую большой спектр рабочих вопросов и задач.<br>Его применяют в разработке котлованов и карьеров, выкапывании ям и траншей, создании насыпей, а также в погрузке и разгрузке различных типов строительных материалов.
             </div>
             <!-- LAYER NR. 3 -->
           </li>
@@ -70,7 +70,7 @@
               data-splitout="none"
               data-elementdelay="0.05"
               data-endelementdelay="0.1"
-              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">CONSTRUCT WORKS
+              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">ЭКСКАВАТОР ПОГРУЗЧИК
             </div>
             <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
               data-x="396"
@@ -97,7 +97,7 @@
               data-splitout="none"
               data-elementdelay="0.05"
               data-endelementdelay="0.1"
-              style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.
+              style="z-index: 9">Предоставим в аренду надежные экскаваторы-погрузчики и телескопические погрузчики лучших производителей: CASE, JCB и JLG.<br>Средний возраст нашей техники 3 года.<br>Опыт работы машинистов – от 7 лет.
             </div>
             <!-- LAYER NR. 3 -->
           </li>
@@ -118,7 +118,7 @@
               data-splitout="none"
               data-elementdelay="0.05"
               data-endelementdelay="0.1"
-              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">MODERN BUILDINGS
+              style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">АРЕНДА САМОСВАЛА
             </div>
             <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
               data-x="396"
@@ -145,7 +145,7 @@
               data-splitout="none"
               data-elementdelay="0.05"
               data-endelementdelay="0.1"
-              style="z-index: 9">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br>commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus <br> et magnis dis parturient montes, nascetur ridiculus mus.
+              style="z-index: 9">Мы можем предложить Вам услуги самосвалов на базе импортной и российской техники различной грузоподъёмности от 15 до 25 тонн.<br>Автомобиль снабжен механизмом подъема и опускания платформы. Управление механизмом электропневматическое, дистанционное из кабины водителя. Гидроцилиндр — телескопический, трехступенчатый.
             </div>
             <!-- LAYER NR. 3 -->
           </li>                                              
