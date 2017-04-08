@@ -1084,7 +1084,7 @@
 
                                 <div class="item-position">
 
-                                <div class="category">Лучшая спецтехника – для вас</div>
+                                <div class="category">Лучшая спецтехника</div>
 
                                 <!-- Title -->
 
@@ -1184,7 +1184,7 @@
 
                             <div class="servicelist-item"> 
 
-                                <div class="icon"><div><i class="stream-icon stream-icon-users-outline"></i></div></div>
+                                <div class="icon"><div><i class="stream-icon stream-icon-man-people-streamline-user"></i></div></div>
 
                                 <!-- Servicelist Icon -->
 
