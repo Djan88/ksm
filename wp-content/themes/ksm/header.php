@@ -151,132 +151,26 @@
                 <?php 
                   $menu = wp_nav_menu(array('menu' => 'Main Navigation', 'container' => false, menu_class => 'menu' ));
                   echo $menu;
-                ?>
-                <ul id="jx-main-menu" class="menu">
-                  <!-- Item 1 -->
-                  <li class="with-sub"><a href="/">Home</a>
-                    <ul class="submenu">                                    	
-                      <li class="col">
-                        <ul>                                        
-                          <li><a href="index.html">Home 1</a></li>
-                          <li><a href="home-1.html">Home 2</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>       
-                  <!-- Item 2 -->
-                  <li class="with-sub"><a href="">Features</a>
-                    <ul class="submenu">                                    	
-                      <li class="col">
-                        <ul>                                        
-                          <li class="has-child"><a href="#">Headers</a>
-                            <ul class="submenu">                                    	
-                              <li>
-                                <ul>                                        
-                                  <li><a href="header-default.html">Default Header</a></li>
-                                  <li><a href="header-without-topbar.html">Header Without Topbar</a></li>
-                                  <li><a href="header-center-logo.html">Header Centered Logo</a></li>
-                                </ul>
-                              </li>
-                            </ul>
-                          </li>
-                          <!-- Sub-tem 01 -->
-                          <li class="has-child">
-                            <a href="#">Pages</a>
-                              <ul class="submenu">                                    
-                                <li>
-                                  <ul>                                        
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="our-team.html">Our Team</a></li>
-                                    <li><a href="testimonial.html">Testimonials</a></li>
-                                    <li><a href="404-error.html">404 Page</a></li>
-                                    <li><a href="faqs.html">FAQs</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
-                            <!-- Sub-tem 02 -->
-                            <li class="has-child">
-                              <a href="#">Shortcodes</a>
-                                <ul class="submenu">
-                                  <li>
-                                    <ul>                                        
-                                      <li><a href="typography.html">Typography</a></li>
-                                      <li><a href="grid-columns.html">Grid Columns</a></li>
-                                      <li><a href="price-table.html">Price Table</a></li>
-                                      <li><a href="service-box.html">Service Box</a></li>
-                                      <li><a href="tag-box.html">Tag Box</a></li>
-                                      <li><a href="testimonial.html">Testimonial</a></li>
-                                      <li><a href="tabs.html">Tabs</a></li>
-                                      <li><a href="counters.html">Counters</a></li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </li>
-                              <!-- Sub-tem 03 -->
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a href="about-us.html">About Us</a></li>
-                      <!-- Item 3 -->
-                      <li class="with-sub">
-                        <a href="#">Services</a>
-                        <ul class="submenu">
-                          <li class="col">
-                            <ul>
-                              <li><a href="construction-managments.html">Construction Managments</a></li>
-                              <li><a href="carpentry.html">Carpentry</a></li>
-                              <li><a href="electrical.html">Electrical</a></li>
-                              <li><a href="plumbing.html">Plumbing</a></li>
-                              <li><a href="tiling-painting.html">Tiling and Painting</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="with-sub"><a href="#">Projects</a>
-                        <ul class="submenu">
-                          <li class="col">
-                            <ul>                                      
-                              <li><a href="projects.html">Classic Projects</a></li>
-                              <li><a href="grid-projects.html">Grid Projects</a></li>
-                              <li><a href="project-view.html">Single Project</a></li>
-                            </ul>
-                          </li>
-                        </ul>                                
-                      </li>
-                      <li class="with-sub"><a href="#">News</a>
-                        <ul class="submenu">
-                          <li class="col">
-                            <ul>                                      
-                              <li><a href="news.html">News</a></li>
-                              <li><a href="news-single-page.html">News Single Page</a></li>
-                            </ul>
-                          </li>
-                        </ul>  
-                      </li>
-                      <li><a href="contact.html">Contact Us</a></li>
-                    </ul>                  	                  
+                ?>            	                  
+              </div>
+              <!-- EOF Menu -->
+            </div>
+            <!-- MENU -->
+            <div class="header-search-right">
+              <div class="jx-header-search">
+                <form role="search" class="jx-form-wrapper" method="get" id="searchform" action="<?php bloginfo('siteurl'); ?>">
+                  <div id="search-input" class="search-inline-block">
+                    <input id="search_text" placeholder="Что искать?" class="jx-form-name" type="text" value="" name="s" id="s">
                   </div>
-                  <!-- EOF Menu -->
-                </div>
-                <!-- MENU -->
-                <div class="header-search-right">
-                  <div class="jx-header-search">
-                    <form role="search" class="jx-form-wrapper" method="get" id="searchform" action="<?php bloginfo('siteurl'); ?>">
-                      <div id="search-input" class="search-inline-block">
-                        <input id="search_text" placeholder="Что искать?" class="jx-form-name" type="text" value="" name="s" id="s">
-                      </div>
-                      <div id="jx-search-submit">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                        <!-- Submit Button -->  
-                      </div>
-                    </form>
+                  <div id="jx-search-submit">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <!-- Submit Button -->  
                   </div>
-                </div>
-                <!-- SEARCH FORM -->
+                </form>
               </div>
             </div>
+            <!-- SEARCH FORM -->
+          </div>
+        </div>
 
-        <!-- BOF Main Menu -->
+    <!-- BOF Main Menu -->
