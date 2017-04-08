@@ -194,7 +194,7 @@
 
                         <div class="jx-left-border"></div>
 
-                        <div class="jx-title jx-uppercase">Чем мы занимаемся?</div>
+                        <div class="jx-title jx-uppercase">Что мы делаем?</div>
 
                         <div class="jx-right-border"></div>
 
