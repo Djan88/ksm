@@ -336,7 +336,7 @@
 
         
 
-       <div class="jx-container jx-white-bg jx-container-badge">
+       <div class="jx-container jx-white-bg jx-container-badge hidden">
 
         
 
@@ -962,7 +962,7 @@
 
         <!-- BOF COUNTER UP STYLE #2 -->
 
-       	<div  class="jx-container jx-grey-bg jx-padding">
+       	<div  class="jx-container jx-grey-bg jx-padding hidden">
 
 				<div class="jx-shape-left jx-shape-small"></div>            
 
@@ -1006,7 +1006,7 @@
 
         	<div class="jx-row-badge">
 
-            	<div class="jx-badge-text">Services</div>
+            	<div class="jx-badge-text">Услуги</div>
 
             	<div class="jx-badge-shape"></div>
 
@@ -1026,13 +1026,13 @@
 
                         <div class="jx-left-border"></div>
 
-                        <div class="jx-title jx-uppercase">Why Choose Us</div>
+                        <div class="jx-title jx-uppercase">Почему выбирают нас</div>
 
                         <div class="jx-right-border"></div>
 
                     </div>
 
-                    <div class="jx-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</div>  
+                    <div class="jx-subtitle">В нашем каталоге вы увидите технику различных марок и мощности. Вы сможете выбрать наиболее подходящий вариант в зависимости от задач, которые вам предстоит выполнить.</div>  
 
                 </div> 
 
@@ -1044,17 +1044,17 @@
 
                             <div class="servicelist-item"> 
 
-                            	<div class="icon"><div><i class="stream-icon stream-icon-shoes-snickers-streamline"></i></div></div>
+                            	<div class="icon"><div><i class="stream-icon stream-icon-truck"></i></div></div>
 
                            		<!-- Servicelist Icon -->
 
                                 <div class="item-position">
 
-                                <div class="category">Safety & Security</div>
+                                <div class="category">Новая техника</div>
 
                                 <!-- Title -->
 
-                                <div class="discription">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</div>
+                                <div class="discription">Средний возраст машин, состояние которых контролируется постоянно, не превышает 3 лет, и они готовы выехать к вам в любой момент. </div>
 
                                 </div>
 
@@ -1078,17 +1078,17 @@
 
                             <div class="servicelist-item"> 
 
-                                <div class="icon"><div><i class="stream-icon stream-icon-brush-paint-streamline"></i></div></div>
+                                <div class="icon"><div><i class="stream-icon stream-icon-factory-lift-streamline-warehouse"></i></div></div>
 
                                 <!-- Servicelist Icon -->
 
                                 <div class="item-position">
 
-                                <div class="category">Modern Painting</div>
+                                <div class="category">Лучшая спецтехника – для вас</div>
 
                                 <!-- Title -->
 
-                                <div class="discription">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</div>
+                                <div class="discription">Более 40 единиц собственной техники: от лучших зарубежных и отечественных производителей</div>
 
                                 </div>
 
@@ -1112,17 +1112,17 @@
 
                             <div class="servicelist-item"> 
 
-                                <div class="icon"><div><i class="stream-icon stream-icon-painting-roll-streamline"></i></div></div>
+                                <div class="icon"><div><i class="stream-icon stream-icon-settings-1"></i></div></div>
 
                                 <!-- Servicelist Icon -->
 
                                 <div class="item-position">
 
-                                <div class="category">Clean Surface</div>
+                                <div class="category">Любая сложность</div>
 
                                 <!-- Title -->
 
-                                <div class="discription">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</div>
+                                <div class="discription">Работаем с заказами различного уровня сложности и продолжительности, от садового участка до Стройки века</div>
 
                                 </div>
 
@@ -1150,17 +1150,17 @@
 
                             <div class="servicelist-item"> 
 
-                                <div class="icon"><div><i class="stream-icon stream-icon-settings-streamline-1"></i></div></div>
+                                <div class="icon"><div><i class="stream-icon stream-icon-map-streamline-user"></i></div></div>
 
                                 <!-- Servicelist Icon -->
 
                                 <div class="item-position">
 
-                                <div class="category">Multi-Ready Options</div>
+                                <div class="category">Мы работаем везде</div>
 
                                 <!-- Title -->
 
-                                <div class="discription">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</div>
+                                <div class="discription">Наша компания работает по всему региону. Там где это необходимо</div>
 
                                 </div>
 
@@ -1184,17 +1184,17 @@
 
                             <div class="servicelist-item"> 
 
-                                <div class="icon"><div><i class="stream-icon stream-icon-factory-lift-streamline-warehouse"></i></div></div>
+                                <div class="icon"><div><i class="stream-icon stream-icon-users-outline"></i></div></div>
 
                                 <!-- Servicelist Icon -->
 
                                 <div class="item-position">
 
-                                <div class="category">Warehouse</div>
+                                <div class="category">90% клиентов</div>
 
                                 <!-- Title -->
 
-                                <div class="discription">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</div>
+                                <div class="discription">становятся нашими постоянными партнерами</div>
 
                                 </div>
 
@@ -1218,17 +1218,17 @@
 
                             <div class="servicelist-item"> 
 
-                                <div class="icon"><div><i class="stream-icon stream-icon-handle-streamline-vector"></i></div></div>
+                                <div class="icon"><div><i class="stream-icon stream-icon-clock"></i></div></div>
 
                                 <!-- Servicelist Icon -->
 
                                 <div class="item-position">
 
-                                <div class="category">Package Shipping</div>
+                                <div class="category">Работаем в срок</div>
 
                                 <!-- Title -->
 
-                                <div class="discription">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque</div>
+                                <div class="discription">Подача техники точно в оговоренное время</div>
 
                                 </div>
 
