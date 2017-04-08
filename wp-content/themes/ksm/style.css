@@ -4282,7 +4282,7 @@ div.pp_overlay {
 
 /*- Megamenu-------------*/	
 
-.menu .submenu {
+.menu .submenu, .menu .sub-menu {
 
   min-width: 235px;
 
@@ -4294,7 +4294,7 @@ div.pp_overlay {
 
 
 
-.menu li .submenu{
+.menu li .submenu, .menu li .sub-menu{
 
   position: absolute;
 
@@ -4310,7 +4310,7 @@ div.pp_overlay {
 
 
 
-.menu li .submenu .col{
+.menu li .submenu .col, .menu li .sub-menu .menu-item{
 
 	display: inline-flex;
 
