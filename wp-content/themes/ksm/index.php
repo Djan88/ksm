@@ -697,7 +697,7 @@
 
                     </div>
 
-                <div class="jx-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </div>  
+                <div class="jx-subtitle">Новости компании и проекты в которых была задействована наша спецтехника. </div>  
 
                 </div> 
 
@@ -713,9 +713,9 @@
 
                             <div class="date-position">
 
-                            <div class="title"><a href="news-single-page.html">Lorem ipsum dolor sit amet</a></div>
+                            <div class="title"><a href="news-single-page.html">Коттеджный поселок</a></div>
 
-                            <div class="date"><i class="fa fa-calendar"></i> <span>25 Jan 2015</span> <span>/</span> <i class="fa fa-user"></i> <span>John Doe</span></div>
+                            <div class="date"><i class="fa fa-calendar"></i> <span>25 Янв 2017</span> <span></div>
 
                        		</div>
 
@@ -723,7 +723,7 @@
 
                             <div class="content-box">
 
-                        		<div class="description">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. </div>
+                        		<div class="description">С помощью нашей техники был возведен один из лучших загородных жилых комплексов России. Общая площадь поселка составляет 120 га, на территории расположено  250  домовладений. </div>
 
                         		<div class="readmore"><a href="news-single-page.html"><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i></a></div>
 
@@ -743,9 +743,9 @@
 
                             <div class="date-position">
 
-                            <div class="title"><a href="news-single-page.html">Aenean commodo ligula eget</a></div>
+                            <div class="title"><a href="news-single-page.html">ЖК «Садовые кварталы» </a></div>
 
-                            <div class="date"><i class="fa fa-calendar"></i> <span>26 Jan 2015</span> <span>/</span> <i class="fa fa-user"></i> <span>Hexal Vanc</span></div>
+                            <div class="date"><i class="fa fa-calendar"></i> <span>26 Янв 2017</span> <span></div>
 
                        		</div>
 
@@ -753,7 +753,7 @@
 
                             <div class="content-box">
 
-                        		<div class="description">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. </div>
+                        		<div class="description">Задача: наша компания проводит широкий спектр строительных работ при возведении жилого комплекса «Садовые кварталы» – начиная от подготовки котлована под фундамент заканчивая высотным монтажом. Новый элитный микрорайон создается на территории 11 га в самом экологичном районе. </div>
 
                         		<div class="readmore"><a href="news-single-page.html"><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i></a></div>
 
@@ -773,7 +773,7 @@
 
                             <div class="date-position">
 
-                            <div class="title"><a href="news-single-page.html">Cum sociis natoque penatibus</a></div>
+                            <div class="title"><a href="news-single-page.html">Жилой комплекс Доминион</a></div>
 
                             <div class="date"><i class="fa fa-calendar"></i> <span>27 Jan 2015</span> <span>/</span> <i class="fa fa-user"></i> <span>Alex Nue</span></div>
 
