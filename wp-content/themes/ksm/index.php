@@ -589,110 +589,81 @@
         <!-- Process -->
 
         <div class="jx-container" style="border-top: 2px solid #eee;">
-
-        <div class="parallax-no bg-pos-middle" style="background-image:url('images/stock-10.jpg');"></div>
-
-        <!-- Parallax Background -->
-
-        <div class="container">
-
-            <div class="eight columns">
-
-            	<div class="jx-process">
-
+          <div class="parallax-no bg-pos-middle" style="background-image:url('images/stock-10.jpg');"></div>
+          <!-- Parallax Background -->
+            <div class="container">
+              <div class="eight columns">
+            	 <div class="jx-process">
                 <div class="jx-section-title-2">
-
-                    <div class="jx-title jx-uppercase">Work Process</div>
-
-                    <div class="jx-seperator-hr"></div>
-
+                  <div class="jx-title jx-uppercase">Как мы работаем</div>
+                  <div class="jx-seperator-hr"></div>
                 </div>
-
                 <!-- Section Title -->
-
                 <ul>
-
-                <li>
-
+                  <li>
                     <div class="jx-process-item">
-
-                        <div class="jx-process-step"><div>1</div></div>
-
-                        <div class="jx-process-content">
-
-                            <div class="jx-process-title">Lorem Ipsum Vetus</div>
-
-                            <div class="jx-process-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</div>
-
-                        </div>
-
+                      <div class="jx-process-step"><div>1</div></div>
+                      <div class="jx-process-content">
+                        <div class="jx-process-title">Заявка от заказчика</div>
+                        <div class="jx-process-description">Вы можете заполнить форму заказа либо связаться с нами по телефону или e-mail</div>
+                      </div>
                     </div>
-
-                </li>
-
-                <!-- Item 01 -->
-
-                <li>
-
+                  </li>
+                  <!-- Item 01 -->
+                  <li>
                     <div class="jx-process-item">
-
-                        <div class="jx-process-step"><div>2</div></div>
-
-                        <div class="jx-process-content">
-
-                            <div class="jx-process-title">Lorem Ipsum Vetus</div>
-
-                            <div class="jx-process-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</div>
-
-                        </div>
-
+                      <div class="jx-process-step"><div>2</div></div>
+                      <div class="jx-process-content">
+                        <div class="jx-process-title">Согласование</div>
+                        <div class="jx-process-description">Менеджер связвывается с Вами, согласует дату и время, а так же может подсказать какая техника подойдет лучше под Ваши задачи</div>
+                      </div>
                     </div>
-
-                </li>
-
-                <!-- Item 02 -->
-
-                <li>
-
+                  </li>
+                  <!-- Item 02 -->
+                  <li>
                     <div class="jx-process-item">
-
-                        <div class="jx-process-step"><div>3</div></div>
-
-                        <div class="jx-process-content">
-
-                            <div class="jx-process-title">Lorem Ipsum Vetus</div>
-
-                            <div class="jx-process-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</div>
-
-                        </div>
-
+                      <div class="jx-process-step"><div>3</div></div>
+                      <div class="jx-process-content">
+                        <div class="jx-process-title">Доставка</div>
+                        <div class="jx-process-description">В условенное время техника доставляется по адресу</div>
+                      </div>
                     </div>
-
-                </li>
-
-                <!-- Item 03 -->
-
-                <li class="vertical-line"></li>
-
+                  </li>
+                  <!-- Item 03 -->
+                  <li class="vertical-line"></li>
                 </ul>
-
+              </div>
             </div>
-
+            <!-- Order form -->
+            <div class="eight columns order_form">
+              <form action="index.html" method="post" class="has-validation-callback">
+                <div class="jx-newsletter-box">
+                  <input type="text" name="jx-newsltter-name" placeholder="Ваше имя" value="">
+                </div>
+                <div class="jx-newsletter-box">
+                  <input type="text" name="jx-newsltter-email" placeholder="Город" value="">
+                </div>
+                <div class="jx-newsletter-box">
+                  <input type="text" name="jx-newsltter-email" placeholder="Какая техника Вам нужна?" value="">
+                </div>
+                <div class="jx-newsletter-box">
+                  <input type="text" name="jx-newsltter-email" placeholder="E-mail" value="">
+                </div>
+                <div class="jx-newsletter-submit">
+                  <input type="submit" name="jx-newsltter-submit" value="ЗАКАЗАТЬ">
+                </div>
+              </form>
             </div>
-
+          </div>
         </div>
-
-        </div>
-
         <!-- EOF Process -->
-
         <!-- BDF BLOG -->
 
         <div class="jx-container jx-grey-bg jx-container-badge">
 
         	<div class="jx-row-badge">
 
-            	<div class="jx-badge-text">News</div>
+            	<div class="jx-badge-text">Новости</div>
 
             	<div class="jx-badge-shape"></div>
 
@@ -712,7 +683,7 @@
 
                         <div class="jx-left-border"></div>
 
-                        <div class="jx-title">RECENT NEWS</div>
+                        <div class="jx-title">ПОСЛЕДНИЕ НОВОСТИ</div>
 
                         <div class="jx-right-border"></div>
 
