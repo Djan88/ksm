@@ -57,28 +57,22 @@
             <div class="four columns">
               <div class="widget">
                 <!-- widget Title -->                         
-                <div class="jx-footer-address">
-                  <ul>
-                    <li>
-                      <div class="jx-footer-social-icon">
-                        <ul>                            
-                          <li class="facebook">
-                            <a href="http://www.facebook.com/#" target="_blank"><i class="fa fa-facebook"></i></a>
-                          </li>
-                          <li class="twitter">
-                            <a href="http://www.twitter.com/#" target="_blank"><i class="fa fa-twitter"></i></a>
-                          </li>
-                          <li class="dribbble">
-                            <a href="http://www.dribbble.com/#" target="_blank"><i class="fa fa-dribbble"></i></a>
-                          </li>
-                          <li class="youtube">
-                            <a href="http://www.youtube.com/#" target="_blank"><i class="fa fa-youtube"></i></a>
-                          </li>
-                          <li class="googleplus">
-                            <a href="http://www.googleplus.com/#" target="_blank"><i class="fa fa-google-plus"></i></a>
-                          </li>
-                        </ul>
-                      </div>
+                <div class="jx-footer-social-icon">
+                  <ul>                            
+                    <li class="facebook">
+                      <a href="http://www.facebook.com/#" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li class="twitter">
+                      <a href="http://www.twitter.com/#" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li class="dribbble">
+                      <a href="http://www.dribbble.com/#" target="_blank"><i class="fa fa-dribbble"></i></a>
+                    </li>
+                    <li class="youtube">
+                      <a href="http://www.youtube.com/#" target="_blank"><i class="fa fa-youtube"></i></a>
+                    </li>
+                    <li class="googleplus">
+                      <a href="http://www.googleplus.com/#" target="_blank"><i class="fa fa-google-plus"></i></a>
                     </li>
                   </ul>
                 </div>
