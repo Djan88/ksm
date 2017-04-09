@@ -87,7 +87,7 @@
         <div class="jx-sub-footer jx-container">
           <div class="container"> 
             <div class="eight columns">
-              <div class="jx-copy-right" style="padding-top: 10px!important;padding-bottom: 10px!important;">Все права защищены © 2017 Разработано в  <a href="http://bablosstudio.ru/">Bablos Studio -</a></div>
+              <div class="jx-copy-right" style="padding-top: 10px!important;padding-bottom: 10px!important;">Все права защищены © 2017 Разработано в  <a href="http://bablosstudio.ru/">Bablos Studio</a></div>
             </div>                
           <!-- Copyright Text -->               
           </div>
