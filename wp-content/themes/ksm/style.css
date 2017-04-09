@@ -7917,9 +7917,23 @@ color:#ffb300
 {
   background-color: #ffb300;
   padding: 10px;
+  border-radius: 4px;
 }
-
-
+.jx-tagline-box.order_form-wrap .jx-newsletter-box 
+{
+  float: none;
+  width: 100%;
+}
+.order-form form
+{
+  border: 2px solid #000;
+  border-radius: 4px;
+}
+.order_form-wrap.jx-tagline-box input[type="submit"]
+{
+    width: auto;
+    padding: 10px;
+}
 
 
 
