@@ -588,7 +588,7 @@
 
         <!-- Process -->
 
-        <div class="jx-container">
+        <div class="jx-container" style="border-top: 2px solid #eee;">
 
         <div class="parallax-no bg-pos-middle" style="background-image:url('images/stock-10.jpg');"></div>
 
