@@ -775,7 +775,7 @@
 
                             <div class="title"><a href="news-single-page.html">Жилой комплекс Доминион</a></div>
 
-                            <div class="date"><i class="fa fa-calendar"></i> <span>27 Jan 2015</span> <span>/</span> <i class="fa fa-user"></i> <span>Alex Nue</span></div>
+                            <div class="date"><i class="fa fa-calendar"></i> <span>27 Марта 2017</span> <span></div>
 
                        		</div>
 
@@ -783,7 +783,7 @@
 
                             <div class="content-box">
 
-                        		<div class="description">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. </div>
+                        		<div class="description">С 2013 год наша компания участвовала в строительстве и облагораживании территории лучшего  жилого квартала города. </div>
 
                         		<div class="readmore"><a href="news-single-page.html"><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i></a></div>
 
@@ -807,7 +807,7 @@
 
                             <i class="btn-icon-left fa  fa-mail-forward"></i>
 
-                            <span>Read All</span>
+                            <span>Больше новостей</span>
 
                             <i class="btn-icon-right fa fa-mail-forward"></i>
 
