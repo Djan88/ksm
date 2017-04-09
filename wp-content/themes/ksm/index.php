@@ -230,7 +230,7 @@
 
                             <!-- Image -->
 
-                            <div class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.</div>
+                            <div class="description">Стрела - телескопическая трехсекционная. Выдвижение секций - гидроцилиндром и полиспастами.</div>
 
                             <!-- Description -->
 
@@ -266,7 +266,7 @@
 
                             <!-- Image -->
 
-                            <div class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.</div>
+                            <div class="description">Благодаря сферическому лобовому стеклу и максимальной площади бокового и заднего остекления обеспечивается прекрасный обзор.</div>
 
                             <!-- Description -->
 
@@ -302,7 +302,7 @@
 
                             <!-- Image -->
 
-                            <div class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque.</div>
+                            <div class="description">Вертикально-подъемная кинематика на погрузчике обеспечивает максимальный радиус действия на любой высоте подъема и точность при погрузке.</div>
 
                             <!-- Description -->
 
