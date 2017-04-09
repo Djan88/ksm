@@ -615,7 +615,7 @@
                       <div class="jx-process-step"><div>2</div></div>
                       <div class="jx-process-content">
                         <div class="jx-process-title">Согласование</div>
-                        <div class="jx-process-description">Менеджер связвывается с Вами, согласует дату и время, а так же может подсказать какая техника подойдет лучше под Ваши задачи</div>
+                        <div class="jx-process-description">Менеджер связвывается с Вами, согласует дату и время, а так же может подсказать какая спецтехники подойдет лучше для решения Ваших задач</div>
                       </div>
                     </div>
                   </li>
@@ -625,7 +625,7 @@
                       <div class="jx-process-step"><div>3</div></div>
                       <div class="jx-process-content">
                         <div class="jx-process-title">Доставка</div>
-                        <div class="jx-process-description">В условенное время техника доставляется по адресу</div>
+                        <div class="jx-process-description">В условенное время спецтехника доставляется по адресу</div>
                       </div>
                     </div>
                   </li>
@@ -635,24 +635,32 @@
               </div>
             </div>
             <!-- Order form -->
-            <div class="eight columns order_form">
-              <form action="index.html" method="post" class="has-validation-callback">
-                <div class="jx-newsletter-box">
-                  <input type="text" name="jx-newsltter-name" placeholder="Ваше имя" value="">
+            <div class="eight columns order_form-wrap">
+              <div class="jx-process">
+                <div class="jx-section-title-2">
+                  <div class="jx-title jx-uppercase">АРЕНДОВАТЬ СПЕЦТЕХНИКУ</div>
+                  <div class="jx-seperator-hr"></div>
                 </div>
-                <div class="jx-newsletter-box">
-                  <input type="text" name="jx-newsltter-email" placeholder="Город" value="">
-                </div>
-                <div class="jx-newsletter-box">
-                  <input type="text" name="jx-newsltter-email" placeholder="Какая техника Вам нужна?" value="">
-                </div>
-                <div class="jx-newsletter-box">
-                  <input type="text" name="jx-newsltter-email" placeholder="E-mail" value="">
-                </div>
-                <div class="jx-newsletter-submit">
-                  <input type="submit" name="jx-newsltter-submit" value="ЗАКАЗАТЬ">
-                </div>
-              </form>
+              </div>
+              <div class="order-form">
+                <form action="index.html" method="post" class="has-validation-callback">
+                  <div class="jx-newsletter-box">
+                    <input type="text" name="jx-newsltter-name" placeholder="Ваше имя" value="">
+                  </div>
+                  <div class="jx-newsletter-box">
+                    <input type="text" name="jx-newsltter-email" placeholder="Город" value="">
+                  </div>
+                  <div class="jx-newsletter-box">
+                    <input type="text" name="jx-newsltter-email" placeholder="Какая техника Вам нужна?" value="">
+                  </div>
+                  <div class="jx-newsletter-box">
+                    <input type="text" name="jx-newsltter-email" placeholder="E-mail" value="">
+                  </div>
+                  <div class="jx-newsletter-submit">
+                    <input type="submit" name="jx-newsltter-submit" value="ЗАКАЗАТЬ">
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
