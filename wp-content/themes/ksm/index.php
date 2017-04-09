@@ -635,31 +635,31 @@
               </div>
             </div>
             <!-- Order form -->
-            <div class="eight columns order_form-wrap">
+            <div class="eight columns order_form-wrap jx-tagline-box">
               <div class="jx-process">
                 <div class="jx-section-title-2">
                   <div class="jx-title jx-uppercase">АРЕНДОВАТЬ СПЕЦТЕХНИКУ</div>
                   <div class="jx-seperator-hr"></div>
                 </div>
-              </div>
-              <div class="order-form">
-                <form action="index.html" method="post" class="has-validation-callback">
-                  <div class="jx-newsletter-box">
-                    <input type="text" name="jx-newsltter-name" placeholder="Ваше имя" value="">
-                  </div>
-                  <div class="jx-newsletter-box">
-                    <input type="text" name="jx-newsltter-email" placeholder="Город" value="">
-                  </div>
-                  <div class="jx-newsletter-box">
-                    <input type="text" name="jx-newsltter-email" placeholder="Какая техника Вам нужна?" value="">
-                  </div>
-                  <div class="jx-newsletter-box">
-                    <input type="text" name="jx-newsltter-email" placeholder="E-mail" value="">
-                  </div>
-                  <div class="jx-newsletter-submit">
-                    <input type="submit" name="jx-newsltter-submit" value="ЗАКАЗАТЬ">
-                  </div>
-                </form>
+                <div class="order-form">
+                  <form action="index.html" method="post" class="has-validation-callback">
+                    <div class="jx-newsletter-box">
+                      <input type="text" name="jx-newsltter-name" placeholder="Ваше имя" value="">
+                    </div>
+                    <div class="jx-newsletter-box">
+                      <input type="text" name="jx-newsltter-email" placeholder="Город" value="">
+                    </div>
+                    <div class="jx-newsletter-box">
+                      <input type="text" name="jx-newsltter-email" placeholder="Какая техника Вам нужна?" value="">
+                    </div>
+                    <div class="jx-newsletter-box">
+                      <input type="text" name="jx-newsltter-email" placeholder="E-mail" value="">
+                    </div>
+                    <div class="jx-newsletter-submit">
+                      <input type="submit" name="jx-newsltter-submit" value="ЗАКАЗАТЬ">
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
