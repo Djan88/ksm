@@ -3043,8 +3043,6 @@ div.pp_overlay {
 
 .jx-container {
 
-  min-height: 100px;
-
   position: relative;
 
   width: 100% !important;
@@ -5591,8 +5589,6 @@ div.pp_overlay {
 .jx-footer-1 .jx-sub-footer {
 
 	background:#111111;
-
-	height:147px;
 
 }
 

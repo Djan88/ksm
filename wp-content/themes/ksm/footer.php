@@ -53,6 +53,39 @@
               </div>
             </div>                
             <!-- EOF Footer widget #3-->
+            <!-- BOF Footer widget #4 -->
+            <div class="four columns">
+              <div class="widget">
+                <!-- widget Title -->                         
+                <div class="jx-footer-address">
+                  <ul>
+                    <li>
+                      <div class="jx-footer-social-icon">
+                        <ul>                            
+                          <li class="facebook">
+                            <a href="http://www.facebook.com/#" target="_blank"><i class="fa fa-facebook"></i></a>
+                          </li>
+                          <li class="twitter">
+                            <a href="http://www.twitter.com/#" target="_blank"><i class="fa fa-twitter"></i></a>
+                          </li>
+                          <li class="dribbble">
+                            <a href="http://www.dribbble.com/#" target="_blank"><i class="fa fa-dribbble"></i></a>
+                          </li>
+                          <li class="youtube">
+                            <a href="http://www.youtube.com/#" target="_blank"><i class="fa fa-youtube"></i></a>
+                          </li>
+                          <li class="googleplus">
+                            <a href="http://www.googleplus.com/#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <!-- Contact Address -->
+              </div>
+            </div>                
+            <!-- EOF Footer widget #4-->
           </div>
         </div>
         <!-- EDF widget FOOTER -->
@@ -60,31 +93,9 @@
         <div class="jx-sub-footer jx-container">
           <div class="container"> 
             <div class="eight columns">
-              <div class="jx-copy-right">Все права защищены © 2017 Разработано в  <a href="http://bablosstudio.ru/">Bablos Studio -</a></div>
+              <div class="jx-copy-right" style="padding-top: 10px!important;padding-bottom: 10px!important;">Все права защищены © 2017 Разработано в  <a href="http://bablosstudio.ru/">Bablos Studio -</a></div>
             </div>                
-          <!-- Copyright Text -->
-            <div class="eight columns">
-              <div class="jx-footer-social-icon">
-                <ul>                            
-                  <li class="facebook">
-                    <a href="http://www.facebook.com/#" target="_blank"><i class="fa fa-facebook"></i></a>
-                  </li>
-                  <li class="twitter">
-                    <a href="http://www.twitter.com/#" target="_blank"><i class="fa fa-twitter"></i></a>
-                  </li>
-                  <li class="dribbble">
-                    <a href="http://www.dribbble.com/#" target="_blank"><i class="fa fa-dribbble"></i></a>
-                  </li>
-                  <li class="youtube">
-                    <a href="http://www.youtube.com/#" target="_blank"><i class="fa fa-youtube"></i></a>
-                  </li>
-                  <li class="googleplus">
-                    <a href="http://www.googleplus.com/#" target="_blank"><i class="fa fa-google-plus"></i></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- Social Icons -->                
+          <!-- Copyright Text -->               
           </div>
         </div>
       <!-- EDF SUB FOOTER -->        
