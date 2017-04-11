@@ -7933,6 +7933,8 @@ color:#ffb300
   width: auto;
   padding: 10px;
 }
-
-
-
+.jx-blog-more 
+{
+  margin-top: 20px;
+  margin-left: 10px;
+}
