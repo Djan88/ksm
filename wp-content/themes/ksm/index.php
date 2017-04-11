@@ -39,7 +39,7 @@
                 echo '<div class="jx-blog-meta">';
                 echo '<ul>';
                 echo '<li class="jx-date">';
-                echo the_time('j f Y');
+                echo the_time('j F Y');
                 echo '</li>';
                 echo '</ul>';
                 echo '</div>';
