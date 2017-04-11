@@ -64,7 +64,7 @@ tr:hover {
 /* Border Color
 /* ------------------------------------------------------------------------ */
 
-.jx-servicebox-item:hover .readmore .plus-icon , .jx-servicebox-item:hover .icon i::after , .jx-servicelist-2 .servicelist-item:hover .icon i::after , .jx-skillsbar-1 .skillbar , .menu > li > a:hover , .jx-servicelist-1 .icon
+.jx-servicebox-item:hover .readmore .plus-icon , .jx-servicebox-item:hover .icon i::after , .jx-servicelist-2 .servicelist-item:hover .icon i::after , .jx-skillsbar-1 .skillbar , .menu > li > a:hover , .jx-servicelist-1 .icon, .current-menu-item a
 {
 	border-color:#ffb300 !important;
 }
@@ -94,7 +94,7 @@ tr:hover {
 /* Border Top Color
 /* ------------------------------------------------------------------------ */
 
-.menu > li:hover {
+.menu > li:hover, .current-menu-item {
 	border-top-color:#ffb300 !important;
 }
 
