@@ -47,7 +47,11 @@
                 echo '<div class="jx-description">';
                 echo '<div class="container">';
                 echo '<div class="three columns">';
+                echo '<a class="cboxElement" href="';
+                echo the_post_thumbnail_url( 'medium' );
+                echo '">';
                 echo the_post_thumbnail('thumbnail');
+                echo '</a>';
                 echo '</div>';
                 echo '<div class="nine columns">';
                 echo the_content(__('<b> Читать далее...</b>'));
