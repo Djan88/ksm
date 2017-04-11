@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-<?php if (is_front_page()) { ?>
-  <?php include(TEMPLATEPATH . '/frontpage.php'); ?>
-<?php } else { ?>
   <!-- BOF Titlebar -->
   <div class="jx-titlebar"> 
     <div class="container">
@@ -210,5 +207,4 @@
   </div>                  
 </div>
   <!-- EOF Main Content -->
-<?php } ?>
 <?php get_footer(); ?>
