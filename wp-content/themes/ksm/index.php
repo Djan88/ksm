@@ -25,31 +25,53 @@
     <div class="container with-sidebar">
       <div class="sixteen columns alpha">        
         <div class="jx-blog-1">
-          <div class="jx-blog-item">
-            <div class="jx-blog-title-metabox">
-              <div class="jx-title">
-                <a href="/">Lorem ipsum dolor sit amet, consectetuer</a>
-              </div>
-              <div class="jx-blog-meta">
-                <ul><li class="jx-date">Nov 25, 2015</li></ul>
-              </div>                    
-            </div>
-            <!-- EOF Title -->
-            <div class="jx-description">
-              <div class="container">
-                <div class="three columns"><img src="<?php bloginfo('template_url'); ?>/images/160.jpg" alt=""></div>
-                <div class="nine columns">
-                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
-                  </p>
+          <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+              <?php
+                echo '<div class="jx-blog-item">'; 
+                echo '<div class="jx-blog-title-metabox">';
+                echo '<div class="jx-title">';
+                echo '<a href="';
+                echo the_permalink();
+                echo '">';
+                echo the_title();
+                echo '</a>';
+                echo '</div>';
+                echo '<div class="jx-blog-meta">';
+                echo '<ul>';
+                echo '<li class="jx-date">';
+                echo the_time('j f Y');
+                echo '</li>';
+                echo '</ul>';
+                echo '</div>';
+                echo '</div>';
+                echo '<div class="jx-description">';
+                echo '<div class="container">';
+                echo '<div class="three columns">';
+                echo the_post_thumbnail('thumbnail');
+                echo '</div>';
+                echo '<div class="nine columns">';
+                echo the_content(__('<b> Читать далее...</b>'));
+                echo '</div>';
+                echo '</div>';
+                echo '</div>';
+                echo '<div class="jx-blog-more">';
+                echo '<a href="';
+                echo the_permalink();
+                echo '">';
+                echo 'Узнать больше';
+                echo '</a>';
+                echo '</div>';
+                echo '</div>';
+              ?>
+          <?php endwhile; else: ?>
+              <section>
+                <div class="container">
+                  <div class="row" style="text-align: center;">
+                    <?php _e('Sorry, no posts matched your criteria.'); ?>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <!-- EOF Description -->          
-            <div class="jx-blog-more">
-              <a href="/"><i class="fa fa-file-text-o"></i>Узнать больше</a>
-            </div>
-            <!-- EOF Readmore-->                    
-          </div>
+              </section> 
+          <?php endif; ?>
           <div class="row"></div>        
           <div class="jx-pagination">
             <div class="page-number current"><a href="#">1</a></div>
@@ -65,7 +87,7 @@
       <div id="sidebar" class="four columns right omega">        
         <div class="jx-sidebar-block mb40">          
           <div class="jx-section-title-2">
-            <div class="jx-title jx-uppercase small-text">Search</div>
+            <div class="jx-title jx-uppercase small-text">Поиск</div>
             <div class="jx-seperator-hr"></div>
           </div>
           <!-- Section title -->             
