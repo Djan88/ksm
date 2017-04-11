@@ -1,832 +1,216 @@
 <?php get_header(); ?>
-  <!-- BOF Slider -->
-  <div class="jx-slider">        
-    <div class="jx-rev-slider-holder">           
-      <div class="tp-banner-container home-slider-1">
-        <div class="tp-banner" >
-          <ul>
-            <!-- SLIDE#1 -->
-            <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
-              <!-- MAIN IMAGE -->
-              <img src="<?php bloginfo('template_url'); ?>/images/stock-2.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-              <!-- LAYERS -->
-              <!-- LAYER NR. 1 -->
-              <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-                data-x="-105"
-                data-y="250" 
-                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="500"
-                data-start="800"
-                data-easing="Power3.easeInOut"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.05"
-                data-endelementdelay="0.1"
-                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">КОЛЕСНЫЙ ЭКСКАВАТОР 
-              </div>
-              <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-                data-x="393"
-                data-y="250" 
-                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="500"
-                data-start="800"
-                data-easing="Power3.easeInOut"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.05"
-                data-endelementdelay="0.1"
-                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
-              </div>           
-              <!-- LAYER NR. 2 -->
-              <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-                data-x="-105"
-                data-y="340" 
-                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="500"
-                data-start="1100"
-                data-easing="Power3.easeInOut"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.05"
-                data-endelementdelay="0.1"
-                style="z-index: 9">Колесный экскаватор представляет собой мощную и высокопроизводительную<br>спецтехнику, отличающуюся внушительными габаритами и решающую большой<br>спектр рабочих вопросов и задач. Его применяют в разработке котлованов и<br> карьеров, выкапывании ям и траншей, создании насыпей, а также в погрузке и<br>разгрузке различных типов строительных материалов.
-              </div>
-              <!-- LAYER NR. 3 -->
-            </li>
-            <!-- SLIDE#1 -->
-            <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
-              <!-- MAIN IMAGE -->
-            <img src="<?php bloginfo('template_url'); ?>/images/stock-6.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-            <!-- LAYERS -->
-              <!-- LAYER NR. 1 -->
-              <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-                data-x="-105"
-                data-y="250" 
-                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="500"
-                data-start="800"
-                data-easing="Power3.easeInOut"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.05"
-                data-endelementdelay="0.1"
-                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">ЭКСКАВАТОР ПОГРУЗЧИК
-              </div>
-              <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-                data-x="396"
-                data-y="250" 
-                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="500"
-                data-start="800"
-                data-easing="Power3.easeInOut"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.05"
-                data-endelementdelay="0.1"
-                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
-              </div>
-              <!-- LAYER NR. 2 -->
-              <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-                data-x="-105"
-                data-y="340" 
-                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="500"
-                data-start="1100"
-                data-easing="Power3.easeInOut"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.05"
-                data-endelementdelay="0.1"
-                style="z-index: 9">Предоставим в аренду надежные экскаваторы-погрузчики и телескопические<br>погрузчики лучших производителей: CASE, JCB и JLG. Средний возраст<br>нашей техники 3 года. Опыт работы машинистов – от 7 лет.
-              </div>
-              <!-- LAYER NR. 3 -->
-            </li>
-              <!-- SLIDE#1 -->
-            <li data-transition="slideleft" data-slotamount="7" data-masterspeed="1500">
-            <!-- MAIN IMAGE -->
-              <img src="<?php bloginfo('template_url'); ?>/images/stock-7.jpg"  alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-              <!-- LAYERS -->
-              <!-- LAYER NR. 1 -->
-              <div class="jx-caption-big-1 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-                data-x="-105"
-                data-y="250" 
-                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="500"
-                data-start="800"
-                data-easing="Power3.easeInOut"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.05"
-                data-endelementdelay="0.1"
-                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;">АРЕНДА САМОСВАЛА
-              </div>
-              <div class="jx-caption-big-icon tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-                data-x="396"
-                data-y="250" 
-                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="500"
-                data-start="800"
-                data-easing="Power3.easeInOut"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.05"
-                data-endelementdelay="0.1"
-                style="z-index: 9; max-width: auto; max-height: auto; white-space: nowrap;"><i class="fa fa-chevron-right"></i>
-              </div>           
-              <!-- LAYER NR. 2 -->
-              <div class="jx-caption-big-2 tp-caption grey_regular_18 customin tp-resizeme rs-parallaxlevel-0"
-                data-x="-105"
-                data-y="340" 
-                data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
-                data-speed="500"
-                data-start="1100"
-                data-easing="Power3.easeInOut"
-                data-splitin="none"
-                data-splitout="none"
-                data-elementdelay="0.05"
-                data-endelementdelay="0.1"
-                style="z-index: 9">Мы можем предложить Вам услуги самосвалов на базе импортной и российской<br>техники различной грузоподъёмности от 15 до 25 тонн. Автомобиль снабжен<br>механизмом подъема и опускания платформы. Управление механизмом<br>электропневматическое, дистанционное из кабины водителя.<br>Гидроцилиндр — телескопический, трехступенчатый.
-              </div>
-              <!-- LAYER NR. 3 -->
-            </li>                                              
-          </ul>
+  <!-- BOF Titlebar -->
+  <div class="jx-titlebar"> 
+    <div class="container">
+      <div class="sixteen columns alpha">
+        <div class="jx-page-title">            
+          <div class="jx-breaducrumb">
+            <a href="/" >Главная </a> 
+            <span><?php the_title(); ?></span>
+          </div>
         </div>
-      </div>   
+      </div>       
     </div>                 
   </div>    
-  <!-- BOF Slider -->
+  <!-- EOF Titlebar -->    
 </header>     
-<!-- EOF Main Menu -->
+<!-- EOF Main Menu -->  
 <!-- BOF Main Content -->
 <div role="main" class="main no-top-padding">
-  <!--  BOF TAGLINE ACTION BOX  # 2 -->
-  <div class="jx-container">                
-    <div class="jx-tagline-box-3">
-      <div class="jx-shape-left"></div>
-      <div class="jx-shape-right"></div>
-      <div class="container"> 
-        <div class="thirteen columns">
-          <div class="box-content">
-            <h4>СПЕЦТЕХНИКА В АРЕНДУ</h4>
-          </div>
-          <!-- Content -->
-        </div>
-        <div class="three columns">
-          <div class="button">УЗНАТЬ БОЛЬШЕ</div>
-          <!-- Button -->
-        </div>            
-      </div>
-    </div> 
-  </div>
-  <!--  BOF TAGLINE ACTION BOX  # 2 -->
-  <!-- BDF SERVICES BOX STYLE # 1 -->
-  <div class="jx-container jx-padding jx-grey-bg">
-
-            <div class="container">
-
-             
-
-                <div class="jx-section-title-1">            
-
-                    <div class="jx-seperator-icon"><i class="fa fa-chevron-down"></i></div>
-
-                    <div class="jx-title-position">
-
-                        <div class="jx-left-border"></div>
-
-                        <div class="jx-title jx-uppercase">Что мы делаем?</div>
-
-                        <div class="jx-right-border"></div>
-
-                    </div>
-
-                    <div class="jx-subtitle">Наша Корпорация предоставляет специальную технику для простых и сложных технических работ. Вы можете воспользоваться экскаватором, автокраном, манипулятором, самосвалом и т.д.</div>  
-
-                </div> 
-
-                <!-- Section Title --> 
-
-                
-
-                <div class="jx-servicebox-2">
-
-                    <div class="one-third columns">
-
-                        <div class="jx-servicebox-item">
-
-                            <div class="jx-image jx-image-wrapper">
-
-                                <img src="<?php bloginfo('template_url'); ?>/images/stock-small-2.jpg" alt="" />
-
-                                <div class="jx-image-title-over">
-
-                                    <a href="construction-managments.html"><div class="jx-title">Поднимаем и перемещаем <span><i class="fa fa-chevron-right"></i></span></div></a>                            
-
-                                </div>
-
-                            
-
-                            </div>
-
-                            <!-- Image -->
-
-                            <div class="description">Стрела - телескопическая трехсекционная. Выдвижение секций - гидроцилиндром и полиспастами.</div>
-
-                            <!-- Description -->
-
-                            <div class="readmore"><a href="construction-managments.html"><div class="plus-icon">+</div></a></div>
-
-                            <!-- Readmore -->
-
-                        </div>
-
-                    </div>
-
-                    <!-- Item 01 -->
-
-                    
-
-                    <div class="one-third columns">
-
-                        <div class="jx-servicebox-item">
-
-                            <div class="jx-image jx-image-wrapper">
-
-                                <img src="<?php bloginfo('template_url'); ?>/images/stock-small-1.jpg" alt="" />
-
-                                <div class="jx-image-title-over">
-
-                                    <a href="carpentry.html"><div class="jx-title">Собираем и грузим<span><i class="fa fa-chevron-right"></i></span></div></a>                            
-
-                                </div>
-
-                            
-
-                            </div>
-
-                            <!-- Image -->
-
-                            <div class="description">Благодаря сферическому лобовому стеклу и максимальной площади бокового и заднего остекления обеспечивается прекрасный обзор.</div>
-
-                            <!-- Description -->
-
-                            <div class="readmore"><a href="carpentry.html"><div class="plus-icon">+</div></a></div>
-
-                            <!-- Readmore -->
-
-                        </div>
-
-                    </div>
-
-                    <!-- Item 02 -->
-
-                    
-
-                    <div class="one-third columns">
-
-                        <div class="jx-servicebox-item">
-
-                            <div class="jx-image jx-image-wrapper">
-
-                                <img src="<?php bloginfo('template_url'); ?>/images/stock-small-3.jpg" alt="" />
-
-                                <div class="jx-image-title-over">
-
-                                    <a href="tiling-painting.html"><div class="jx-title">Роем и выравниваем <span><i class="fa fa-chevron-right"></i></span></div></a>                            
-
-                                </div>
-
-                            
-
-                            </div>
-
-                            <!-- Image -->
-
-                            <div class="description">Вертикально-подъемная кинематика на погрузчике обеспечивает максимальный радиус действия на любой высоте подъема и точность при погрузке.</div>
-
-                            <!-- Description -->
-
-                            <div class="readmore"><a href="tiling-painting.html"><div class="plus-icon">+</div></a></div>
-
-                            <!-- Readmore -->
-
-                        </div>
-
-                    </div>
-
-                    <!-- Item 03 -->
-
-                
-
-           </div>
-
-                
-
-                
-
-            </div>
-
-        </div>
-
-        
-
-        <!-- EDF SERVICES BOX STYLE # 1 -->       
-
-        <!-- BDF SERVICES LIST BOX STYLE # 1 -->
-
-        
-
-        <div class="jx-container jx-white-bg jx-container-badge">
-
-        
-
-        	<div class="jx-row-badge">
-
-            	<div class="jx-badge-text">Услуги</div>
-
-            	<div class="jx-badge-shape"></div>
-
-            </div>
-
-            
-
-            <div class="container jx-padding">
-
-            
-
-            	<div class="jx-section-title-1">            
-
-                    <div class="jx-seperator-icon"><i class="fa fa-chevron-down"></i></div>
-
-                    <div class="jx-title-position">
-
-                        <div class="jx-left-border"></div>
-
-                        <div class="jx-title jx-uppercase">Почему выбирают нас</div>
-
-                        <div class="jx-right-border"></div>
-
-                    </div>
-
-                    <div class="jx-subtitle">В нашем каталоге вы увидите технику различных марок и мощности. Вы сможете выбрать наиболее подходящий вариант в зависимости от задач, которые вам предстоит выполнить.</div>  
-
-                </div> 
-
-                <div class="one-third columns">
-
-                    <div class="jx-servicelist-1">
-
-                        <div class="servicelist-head">
-
-                            <div class="servicelist-item"> 
-
-                            	<div class="icon"><div><i class="stream-icon stream-icon-settings-streamline"></i></div></div>
-
-                           		<!-- Servicelist Icon -->
-
-                                <div class="item-position">
-
-                                <div class="category">Новая техника</div>
-
-                                <!-- Title -->
-
-                                <div class="discription">Средний возраст машин, состояние которых контролируется постоянно, не превышает 3 лет, и они готовы выехать к вам в любой момент. </div>
-
-                                </div>
-
-                           		 <!-- Servicelist Content -->
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-    
-
-                <div class="one-third columns">
-
-                    <div class="jx-servicelist-1">
-
-                        <div class="servicelist-head">
-
-                            <div class="servicelist-item"> 
-
-                                <div class="icon"><div><i class="stream-icon stream-icon-factory-lift-streamline-warehouse"></i></div></div>
-
-                                <!-- Servicelist Icon -->
-
-                                <div class="item-position">
-
-                                <div class="category">Лучшая спецтехника</div>
-
-                                <!-- Title -->
-
-                                <div class="discription">Более 40 единиц собственной техники: от лучших зарубежных и отечественных производителей</div>
-
-                                </div>
-
-                                 <!-- Servicelist Content -->
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                
-
-                <div class="one-third columns">
-
-                    <div class="jx-servicelist-1">
-
-                        <div class="servicelist-head">
-
-                            <div class="servicelist-item"> 
-
-                                <div class="icon"><div><i class="stream-icon stream-icon-settings-streamline-2"></i></div></div>
-
-                                <!-- Servicelist Icon -->
-
-                                <div class="item-position">
-
-                                <div class="category">Любая сложность</div>
-
-                                <!-- Title -->
-
-                                <div class="discription">Работаем с заказами различного уровня сложности и продолжительности, от садового участка до Стройки века</div>
-
-                                </div>
-
-                                 <!-- Servicelist Content -->
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                
-
-                <div class="row"></div>
-
-                
-
-                <div class="one-third columns">
-
-                    <div class="jx-servicelist-1">
-
-                        <div class="servicelist-head">
-
-                            <div class="servicelist-item"> 
-
-                                <div class="icon"><div><i class="stream-icon stream-icon-map-streamline-user"></i></div></div>
-
-                                <!-- Servicelist Icon -->
-
-                                <div class="item-position">
-
-                                <div class="category">Мы работаем везде</div>
-
-                                <!-- Title -->
-
-                                <div class="discription">Наша компания работает по всему региону. Там где это необходимо</div>
-
-                                </div>
-
-                                 <!-- Servicelist Content -->
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                
-
-                <div class="one-third columns">
-
-                    <div class="jx-servicelist-1">
-
-                        <div class="servicelist-head">
-
-                            <div class="servicelist-item"> 
-
-                                <div class="icon"><div><i class="stream-icon stream-icon-man-people-streamline-user"></i></div></div>
-
-                                <!-- Servicelist Icon -->
-
-                                <div class="item-position">
-
-                                <div class="category">90% клиентов</div>
-
-                                <!-- Title -->
-
-                                <div class="discription">становятся нашими постоянными партнерами</div>
-
-                                </div>
-
-                                 <!-- Servicelist Content -->
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                
-
-                <div class="one-third columns">
-
-                    <div class="jx-servicelist-1">
-
-                        <div class="servicelist-head">
-
-                            <div class="servicelist-item"> 
-
-                                <div class="icon"><div><i class="stream-icon stream-icon-dashboard-speed-streamline"></i></div></div>
-
-                                <!-- Servicelist Icon -->
-
-                                <div class="item-position">
-
-                                <div class="category">Работаем в срок</div>
-
-                                <!-- Title -->
-
-                                <div class="discription">Подача техники точно в оговоренное время</div>
-
-                                </div>
-
-                                 <!-- Servicelist Content -->
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        
-
-        <!-- EDF SERVICES LIST BOX STYLE # 1 -->
-
-        <!-- Process -->
-
-        <div class="jx-container" style="border-top: 2px solid #eee;">
-          <div class="parallax-no bg-pos-middle" style="background-image:url('images/stock-10.jpg');"></div>
-          <!-- Parallax Background -->
-            <div class="container">
-              <div class="eight columns">
-            	 <div class="jx-process">
-                <div class="jx-section-title-2">
-                  <div class="jx-title jx-uppercase">Как мы работаем</div>
-                  <div class="jx-seperator-hr"></div>
-                </div>
-                <!-- Section Title -->
+  <div class="jx-container jx-padding">
+    <div class="container with-sidebar">
+      <div class="sixteen columns alpha">        
+        <div class="jx-blog-1">
+          <div class="jx-blog-item">
+            <div class="jx-blog-title-metabox">
+              <div class="jx-title">
+                <a href="news-single-page.html">Lorem ipsum dolor sit amet, consectetuer</a>
+              </div>
+              <div class="jx-blog-meta">
                 <ul>
-                  <li>
-                    <div class="jx-process-item">
-                      <div class="jx-process-step"><div>1</div></div>
-                      <div class="jx-process-content">
-                        <div class="jx-process-title">Заявка от заказчика</div>
-                        <div class="jx-process-description">Вы можете заполнить форму заказа либо связаться с нами по телефону или e-mail</div>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- Item 01 -->
-                  <li>
-                    <div class="jx-process-item">
-                      <div class="jx-process-step"><div>2</div></div>
-                      <div class="jx-process-content">
-                        <div class="jx-process-title">Согласование</div>
-                        <div class="jx-process-description">Менеджер связвывается с Вами, согласует дату и время, а так же может подсказать какая спецтехники подойдет лучше для решения Ваших задач</div>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- Item 02 -->
-                  <li>
-                    <div class="jx-process-item">
-                      <div class="jx-process-step"><div>3</div></div>
-                      <div class="jx-process-content">
-                        <div class="jx-process-title">Доставка</div>
-                        <div class="jx-process-description">В условенное время спецтехника доставляется по адресу</div>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- Item 03 -->
-                  <li class="vertical-line"></li>
+                  <li class="jx-date">Nov 25, 2015</li>
+                  <li class="jx-author">By Ahmed Isa</li>
+                  <li class="jx-category">Tiling, Painting, Construction</li>
+                  <li class="jx-Tag">Floor Plan, Annual Contract</li>
+                  <li class="jx-comments">3 Comments</li>
                 </ul>
-              </div>
+              </div>                    
             </div>
-            <!-- Order form -->
-            <div class="eight columns order_form-wrap jx-tagline-box">
-              <div class="jx-process">
-                <div class="jx-section-title-2">
-                  <div class="jx-title jx-uppercase">АРЕНДОВАТЬ СПЕЦТЕХНИКУ</div>
-                  <div class="jx-seperator-hr"></div>
-                </div>
-                <div class="order-form">
-                  <form action="index.html" method="post" class="has-validation-callback">
-                    <div class="jx-newsletter-box">
-                      <input type="text" name="jx-newsltter-name" placeholder="Ваше имя" value="">
-                    </div>
-                    <div class="jx-newsletter-box">
-                      <input type="text" name="jx-newsltter-email" placeholder="Город" value="">
-                    </div>
-                    <div class="jx-newsletter-box">
-                      <input type="text" name="jx-newsltter-email" placeholder="Какая техника Вам нужна?" value="">
-                    </div>
-                    <div class="jx-newsletter-box">
-                      <input type="text" name="jx-newsltter-email" placeholder="E-mail" value="">
-                    </div>
-                    <div class="jx-newsletter-submit">
-                      <input type="submit" name="jx-newsltter-submit" value="ЗАКАЗАТЬ">
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- EOF Process -->
-        <!-- BDF BLOG -->
-
-        <div class="jx-container jx-grey-bg jx-container-badge">
-
-        	<div class="jx-row-badge">
-
-            	<div class="jx-badge-text">Новости</div>
-
-            	<div class="jx-badge-shape"></div>
-
-            </div>
-
-            
-
-            <div class="container jx-padding"> 
-
-                
-
-                <div class="jx-section-title-1">            
-
-                    <div class="jx-seperator-icon"><i class="fa fa-chevron-down"></i></div>
-
-                    <div class="jx-title-position">
-
-                        <div class="jx-left-border"></div>
-
-                        <div class="jx-title">ПОСЛЕДНИЕ НОВОСТИ</div>
-
-                        <div class="jx-right-border"></div>
-
-                    </div>
-
-                <div class="jx-subtitle">Новости компании и проекты в которых была задействована наша спецтехника. </div>  
-
-                </div> 
-
-                <!-- Section Title -->
-
-                <div class="jx-blog-1">
-
-                    <div class="one-third columns">
-
-                        <div class="blog-item">
-
-                        	<div class="image"><img src="<?php bloginfo('template_url'); ?>/images/stock-3.jpg" alt="blog 1" /></div>
-
-                            <div class="date-position">
-
-                            <div class="title"><a href="news-single-page.html">Коттеджный поселок</a></div>
-
-                            <div class="date"><i class="fa fa-calendar"></i> <span>25 Янв 2017</span> <span></div>
-
-                       		</div>
-
-                            <div class="hr-line"></div>
-
-                            <div class="content-box">
-
-                        		<div class="description">С помощью нашей техники был возведен один из лучших загородных жилых комплексов России. Общая площадь поселка составляет 120 га, на территории расположено  250  домовладений. </div>
-
-                        		<div class="readmore"><a href="news-single-page.html"><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i></a></div>
-
-                        	</div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Blog # 1 -->
-
-                    <div class="one-third columns">
-
-                        <div class="blog-item">
-
-                        	<div class="image"><img src="<?php bloginfo('template_url'); ?>/images/stock-4.jpg" alt="blog 1" /></div>
-
-                            <div class="date-position">
-
-                            <div class="title"><a href="news-single-page.html">ЖК «Садовые кварталы» </a></div>
-
-                            <div class="date"><i class="fa fa-calendar"></i> <span>26 Янв 2017</span> <span></div>
-
-                       		</div>
-
-                       		<div class="hr-line"></div>
-
-                            <div class="content-box">
-
-                        		<div class="description">Задача: наша компания проводит широкий спектр строительных работ при возведении жилого комплекса «Садовые кварталы» – начиная от подготовки котлована под фундамент заканчивая высотным монтажом. Новый элитный микрорайон создается на территории 11 га в самом экологичном районе. </div>
-
-                        		<div class="readmore"><a href="news-single-page.html"><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i></a></div>
-
-                        	</div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Blog # 2 -->
-
-                    <div class="one-third columns">
-
-                        <div class="blog-item">
-
-                        	<div class="image"><img src="<?php bloginfo('template_url'); ?>/images/stock-5.jpg" alt="blog 1" /></div>
-
-                            <div class="date-position">
-
-                            <div class="title"><a href="news-single-page.html">Жилой комплекс Доминион</a></div>
-
-                            <div class="date"><i class="fa fa-calendar"></i> <span>27 Марта 2017</span> <span></div>
-
-                       		</div>
-
-                       		<div class="hr-line"></div>
-
-                            <div class="content-box">
-
-                        		<div class="description">С 2013 год наша компания участвовала в строительстве и облагораживании территории лучшего  жилого квартала города. </div>
-
-                        		<div class="readmore"><a href="news-single-page.html"><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i><i class="fa fa-genderless"></i></a></div>
-
-                        	</div>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Blog # 3 -->
-
-                    <div class="row"></div>
-
-                    <div class="row"></div>
-
-                    <div class="jx-btn-center"> 
-
-                    <a href="news.html" class="jx-btn-default">
-
-                        <span>	
-
-                            <i class="btn-icon-left fa  fa-mail-forward"></i>
-
-                            <span>Больше новостей</span>
-
-                            <i class="btn-icon-right fa fa-mail-forward"></i>
-
+            <!-- EOF Title -->
+            <div class="jx-image-holder">
+              <div class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <div class="jx-blog-image jx-image-wrapper">
+                      <img src="images/blog-1.jpg" alt=""/>
+                      <div class="jx-image-hoverlay"></div>                
+                      <div class="jx-blog-btns-hover">
+                        <span class="jx-btn-scale">
+                          <a href="images/blog-1.jpg" data-rel="prettyPhoto"><i class="fa fa-search"></i></a>
                         </span>
-
-                    </a>
-
-                </div>
-
-                    <!-- Blog Button -->
-
-                </div>
-
+                        <span class="jx-btn-link"><a href="news-single-page.html"><i class="fa fa-link"></i></a></span>
+                      </div>                
+                    </div>
+                  </li>
+                  <!-- Image -->                
+                  <li>
+                    <div class="jx-blog-image jx-image-wrapper">
+                      <iframe src="https://www.youtube.com/embed/eVOlk6XtBgc?vq&hd=1"></iframe>
+                      <div class="jx-image-hoverlay"></div>
+                      <div class="jx-blog-btns-hover">
+                        <span class="jx-btn-scale"><a href="https://youtu.be/eVOlk6XtBgc" data-rel="prettyPhoto"><i class="fa fa-play"></i></a></span>
+                        <span class="jx-btn-link"><a href="news-single-page.html"><i class="fa fa-link"></i></a></span>
+                      </div>
+                    </div>
+                  </li>
+                  <!-- Video -->      
+                </ul>
+              </div>        
             </div>
-
+            <!-- EOF Blog Image -->
+            <div class="jx-description">
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+              </p>
+            </div>
+            <!-- EOF Description -->          
+            <div class="jx-blog-more">
+              <a href="news-single-page.html"><i class="fa fa-file-text-o"></i>Read More</a>
+            </div>
+            <!-- EOF Readmore-->                    
+          </div>
+          <div class="row"></div>        
+          <div class="jx-pagination">
+            <div class="page-number current"><a href="#">1</a></div>
+              <div class="page-number"><a href="#">2</a></div>
+              <div class="page-number"><a href="#">3</a></div>
+              <div class="page-number"><a href="#">4</a></div>
+              <div class="page-number"><a href="#">5</a></div> 
+          </div> 
         </div>
-
-        <!-- EDF BLOG -->
-
+        <!-- EOF Blog -->      
+      </div>
+      <!-- EOF Body Content -->        
+      <div id="sidebar" class="four columns right omega">        
+        <div class="jx-sidebar-block mb40">          
+          <div class="jx-section-title-2">
+            <div class="jx-title jx-uppercase small-text">Search</div>
+            <div class="jx-seperator-hr"></div>
+          </div>
+          <!-- Section title -->             
+          <div class="jx-sidebar-search">
+            <form action="#" id="contactForm-1" method="post" class="jx-form-wrapper cf">                                
+              <div class="search-input search-inline-block">
+                <input type="text" id="search-item" name="search_item" placeholder="Search..." class="jx-form-name" />                                
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </div>
+            </form>                        
+          </div>
+          <!-- Search -->
+        </div>
+        <!-- Widget 01 -->          
+        <div class="jx-sidebar-block mb40">          
+          <div class="jx-section-title-2">
+            <div class="jx-title jx-uppercase small-text">Recent Posts</div>
+            <div class="jx-seperator-hr"></div>
+          </div>
+        <!-- Section title --> 
+          <div class="jx-sidebar-recent-post">
+            <ul>
+              <li>
+                <div class="image"><img src="images/blog-s-1.jpg" alt=""></div>
+                <div class="post-content">
+                  <div class="title">
+                    <a href="news-single-page.html">Lorem ipsum dolor sit</a>
+                  </div>
+                  <div class="date">29 JUL 2015</div>
+                </div>
+              </li>                              
+              <li>
+                <div class="image"><img src="images/blog-s-2.jpg" alt=""></div>
+                <div class="post-content">
+                  <div class="title"><a href="news-single-page.html">Nulla consequat massa</a></div>
+                  <div class="date">18 JUN 2015</div>
+                </div>
+              </li>                
+              <li>
+                <div class="image"><img src="images/blog-s-3.jpg" alt=""></div>
+                <div class="post-content">
+                  <div class="title"><a href="news-single-page.html">Vivamus elementum semper</a></div>
+                  <div class="date">15 May 2015</div>
+                </div>
+              </li>                
+            </ul>
+          </div>
+          <!-- Recent Post -->
+        </div>
+        <!-- Widget 02 -->          
+        <div class="jx-sidebar-block mb40 widget-area">          
+          <div class="jx-section-title-2">
+            <div class="jx-title jx-uppercase small-text">Categories</div>
+            <div class="jx-seperator-hr"></div>
+          </div>
+          <!-- Section title -->             
+          <div class="jx-sidebar-categories">    
+            <ul>
+              <li><a href="#">Construction</a></li>
+              <li><a href="#">House Maintenance</a></li>
+              <li><a href="#">Carpentry</a></li>
+              <li><a href="#">Hardware</a></li> 
+              <li><a href="#">Buildings</a></li>
+              <li><a href="#">Modern Kitchens</a></li>                         
+            </ul>                          
+          </div>
+          <!-- Categories -->
+        </div>
+        <!-- Widget 03 -->
+        <div class="jx-sidebar-block mb40 widget-area">          
+          <div class="jx-section-title-2">
+            <div class="jx-title jx-uppercase small-text">Tags</div>
+            <div class="jx-seperator-hr"></div>
+          </div>
+          <!-- Section title -->               
+          <div class="jx-sidebar-tags">                          
+            <ul>
+              <li><a href="#">Construction</a></li>
+              <li><a href="#">House Maintenance</a></li>
+              <li><a href="#">Carpentry</a></li>
+              <li><a href="#">Hardware</a></li> 
+              <li><a href="#">Buildings</a></li>
+              <li><a href="#">Modern Kitchens</a></li>                         
+            </ul>                                     
+          </div>
+          <!-- Categories -->
+        </div>
+        <!-- Widget 03 -->                      
+        <div class="jx-sidebar-block mb40">                  
+          <div class="jx-section-title-2">
+            <div class="jx-title jx-uppercase small-text">Testimonials</div>
+            <div class="jx-seperator-hr"></div>
+          </div>
+          <!-- Section title -->             
+          <div class="jx-sidebar-testimonials">                          
+            <ul>
+              <li>
+                <div class="jx-tetimonials-1">                      
+                  <div class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam...</div>
+                  <div class="jx-testimonial-details">
+                    <div class="jx-testimonial-image">
+                      <img src="images/team_5.jpg" alt="testimonials images">
+                    </div>
+                    <div class="name">Alex Simon</div>
+                    <div class="position">Maxon Corp</div>
+                  </div>                        
+                </div>                        
+              </li>                        
+            </ul>                                   
+          </div>
+          <!-- Testimonials -->
+        </div>
+        <!-- Widget 03 -->                          
+      </div>
+    <!-- EOF Sidebar -->          
     </div>
-    <!-- EOF Main Content -->
+  </div>                  
+</div>
+  <!-- EOF Main Content -->
 <?php get_footer(); ?>

@@ -5,7 +5,7 @@
       <div class="sixteen columns alpha">
         <div class="jx-page-title">            
           <div class="jx-breaducrumb">
-            <a href="#" >Главная </a> 
+            <a href="/" >Главная </a> 
             <span>404</span>
           </div>
         </div>
