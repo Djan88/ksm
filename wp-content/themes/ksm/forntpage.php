@@ -1,4 +1,3 @@
-<?php get_header(); ?>
   <!-- BOF Slider -->
   <div class="jx-slider">        
     <div class="jx-rev-slider-holder">           
@@ -829,4 +828,3 @@
 
     </div>
     <!-- EOF Main Content -->
-<?php get_footer(); ?>
