@@ -7940,5 +7940,9 @@ color:#ffb300
 }
 .pp_social 
 {
-    display: none;
+  display: none;
+}
+div.ppt 
+{
+  display: none!important;
 }
