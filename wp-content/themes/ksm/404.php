@@ -6,7 +6,7 @@
         <div class="jx-page-title">            
           <div class="jx-breaducrumb">
             <a href="#" >Главная </a> 
-            <span><?php the_title(); ?></span>
+            <span>404</span>
           </div>
         </div>
       </div>       
