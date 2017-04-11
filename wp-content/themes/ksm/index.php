@@ -9,7 +9,7 @@
             <?php if (is_category()) { ?>
               <span><?php single_cat_title(); ?><span>
             <?php } else {?>
-              <span><?php the_title(); ?><span>
+              <span><?php the_title(); ?></span>
             <?php } ?>
           </div>
         </div>
