@@ -28,57 +28,25 @@
           <div class="jx-blog-item">
             <div class="jx-blog-title-metabox">
               <div class="jx-title">
-                <a href="news-single-page.html">Lorem ipsum dolor sit amet, consectetuer</a>
+                <a href="/">Lorem ipsum dolor sit amet, consectetuer</a>
               </div>
               <div class="jx-blog-meta">
-                <ul>
-                  <li class="jx-date">Nov 25, 2015</li>
-                  <li class="jx-author">By Ahmed Isa</li>
-                  <li class="jx-category">Tiling, Painting, Construction</li>
-                  <li class="jx-Tag">Floor Plan, Annual Contract</li>
-                  <li class="jx-comments">3 Comments</li>
-                </ul>
+                <ul><li class="jx-date">Nov 25, 2015</li></ul>
               </div>                    
             </div>
             <!-- EOF Title -->
-            <div class="jx-image-holder">
-              <div class="flexslider">
-                <ul class="slides">
-                  <li>
-                    <div class="jx-blog-image jx-image-wrapper">
-                      <img src="images/blog-1.jpg" alt=""/>
-                      <div class="jx-image-hoverlay"></div>                
-                      <div class="jx-blog-btns-hover">
-                        <span class="jx-btn-scale">
-                          <a href="images/blog-1.jpg" data-rel="prettyPhoto"><i class="fa fa-search"></i></a>
-                        </span>
-                        <span class="jx-btn-link"><a href="news-single-page.html"><i class="fa fa-link"></i></a></span>
-                      </div>                
-                    </div>
-                  </li>
-                  <!-- Image -->                
-                  <li>
-                    <div class="jx-blog-image jx-image-wrapper">
-                      <iframe src="https://www.youtube.com/embed/eVOlk6XtBgc?vq&hd=1"></iframe>
-                      <div class="jx-image-hoverlay"></div>
-                      <div class="jx-blog-btns-hover">
-                        <span class="jx-btn-scale"><a href="https://youtu.be/eVOlk6XtBgc" data-rel="prettyPhoto"><i class="fa fa-play"></i></a></span>
-                        <span class="jx-btn-link"><a href="news-single-page.html"><i class="fa fa-link"></i></a></span>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- Video -->      
-                </ul>
-              </div>        
-            </div>
-            <!-- EOF Blog Image -->
             <div class="jx-description">
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
-              </p>
+              <div class="container">
+                <div class="three columns"><img src="<?php bloginfo('template_url'); ?>/images/160.jpg" alt=""></div>
+                <div class="nine columns">
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.
+                  </p>
+                </div>
+              </div>
             </div>
             <!-- EOF Description -->          
             <div class="jx-blog-more">
-              <a href="news-single-page.html"><i class="fa fa-file-text-o"></i>Read More</a>
+              <a href="/"><i class="fa fa-file-text-o"></i>Узнать больше</a>
             </div>
             <!-- EOF Readmore-->                    
           </div>
