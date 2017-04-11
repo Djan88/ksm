@@ -1,3 +1,4 @@
+  <?php get_header(); ?>
   </header>     
     
     <!-- EOF Main Menu -->
@@ -20,3 +21,4 @@
         </div>        
     </div>
     <!-- EOF Main Content -->
+<?php get_footer(); ?>
