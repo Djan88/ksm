@@ -70,7 +70,7 @@
       <!-- EOF Project Details -->
     </div>
   </div>
-  <?php if (get_field('recent_tech');) { ?>
+  <?php if (get_field('recent_tech')) { ?>
   <div class="jx-container no-top-padding">
     <div class="container">
       <div class="sixteen columns">
