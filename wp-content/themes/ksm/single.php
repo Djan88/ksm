@@ -13,6 +13,7 @@
 </header>     
   <!-- EOF Main Menu -->    
   <!-- BOF Main Content -->
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <div role="main" class="main no-top-padding">      
   <div class="jx-container jx-padding">
     <div class="container">
@@ -46,12 +47,15 @@
       <div class="five columns">
         <div class="jx-portfolio-short-details">              
           <div class="jx-section-title-2">
-            <div class="jx-title jx-uppercase">Project Description</div>
+            <div class="jx-title jx-uppercase">Описание</div>
             <div class="jx-seperator-hr"></div>
           </div>
           <!-- Section title -->               
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-          </p>
+          <?php
+          the_content(__('(more...)'));
+          wp_link_pages();
+          edit_post_link(__('Edit This'));
+          ?>
         </div>          
         <div class="jx-portfolio-details-box">
           <div class="jx-section-title-2">
@@ -92,10 +96,10 @@
       </div>
     </div>        
   </div>
-  <!-- EOF Project Partners -->
-        
-        
-        
-    </div>
-    <!-- EOF Main Content -->
+  <!-- EOF Project Partners -->   
+</div>
+<?php endwhile; else: ?>
+  <?php _e('Sorry, no posts matched your criteria.'); ?>
+<?php endif; ?>
+<!-- EOF Main Content -->
 <?php get_footer(); ?>
