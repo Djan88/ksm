@@ -81,12 +81,12 @@
             <div class="jx-seperator-hr"></div>
           </div>      
           <ul>
-            <li><a href="#"><img src="images/logo-1.png" alt=""/></a></li>
-            <li><a href="#"><img src="images/logo-2.png" alt="" /></a></li>
-            <li><a href="#"><img src="images/logo-3.png" alt=""/></a></li>
-            <li><a href="#"><img src="images/logo-4.png" alt=""/></a></li>
-            <li><a href="#"><img src="images/logo-5.png" alt=""/></a></li>
-            <li><a href="#"><img src="images/logo-6.png" alt=""/></a></li>
+            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-1.png" alt=""/></a></li>
+            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-2.png" alt="" /></a></li>
+            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-3.png" alt=""/></a></li>
+            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-4.png" alt=""/></a></li>
+            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-5.png" alt=""/></a></li>
+            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-6.png" alt=""/></a></li>
           </ul>
         </div>
       </div>
