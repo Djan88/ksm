@@ -15,7 +15,7 @@
   <!-- BOF Main Content -->
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <div role="main" class="main no-top-padding">      
-  <div class="jx-container jx-padding">
+  <div class="jx-container">
     <div class="container">
       <!-- Portfolio Slider-->
       <?php if( have_rows('slider') ): ?> 
@@ -70,7 +70,7 @@
       <!-- EOF Project Details -->
     </div>
   </div>        
-  <div class="jx-container jx-padding no-top-padding">
+  <div class="jx-container no-top-padding">
     <div class="container">
       <div class="sixteen columns">
         <div class="jx-partner-logo">         
