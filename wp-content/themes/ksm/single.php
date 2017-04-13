@@ -21,22 +21,22 @@
         <div class="jx-protfolio-details">                            
           <div id="slider" class="flexslider">
             <ul class="slides">
-              <li><img src="images/portfolio-w-1.jpg" alt=""></li>
-              <li><img src="images/portfolio-w-2.jpg" alt=""></li>
-              <li><img src="images/portfolio-w-3.jpg" alt=""></li>
-              <li><img src="images/portfolio-w-4.jpg" alt=""></li>
-              <li><img src="images/portfolio-w-5.jpg" alt=""></li>
-              <li><img src="images/portfolio-w-6.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-1.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-2.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-3.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-4.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-5.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-6.jpg" alt=""></li>
             </ul>
           </div>
           <div id="carousel" class="flexslider">
             <ul class="slides">
-              <li><img src="images/portfolio-s-1.jpg" alt=""></li>
-              <li><img src="images/portfolio-s-2.jpg" alt=""></li>
-              <li><img src="images/portfolio-s-3.jpg" alt=""></li>
-              <li><img src="images/portfolio-s-4.jpg" alt=""></li>
-              <li><img src="images/portfolio-s-5.jpg" alt=""></li>
-              <li><img src="images/portfolio-s-6.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-1.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-2.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-3.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-4.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-5.jpg" alt=""></li>
+              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-6.jpg" alt=""></li>
             </ul>
           </div>          
         </div>
