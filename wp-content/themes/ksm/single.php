@@ -85,7 +85,7 @@
           if( $posts ): ?>
               <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
                   <?php setup_postdata($post); ?>
-                  <li><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail');?></a></li>
+                  <li><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail');?><div class="resent_title"><?php the_title(); ?></div></a></li>
               <?php endforeach; ?>
               <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
           <?php endif; ?>
