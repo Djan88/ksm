@@ -7949,11 +7949,11 @@ div.ppt
     color: #000000;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 13px;
     padding: 10px 23px;
     border-radius: 10px;
-    font-weight: 400;
     text-align: center;
+    min-height: 56px;
 }
 a:hover .resent_title
 {
