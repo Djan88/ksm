@@ -53,25 +53,23 @@
           <!-- Section title -->               
           <?php
           the_content(__('(more...)'));
-          wp_link_pages();
           edit_post_link(__('Edit This'));
           ?>
-        </div>          
+        </div>
+        <?php if( have_rows('parametrs') ): ?>         
         <div class="jx-portfolio-details-box">
           <div class="jx-section-title-2">
-            <div class="jx-title jx-uppercase">Details</div>
+            <div class="jx-title jx-uppercase">Параметры</div>
             <div class="jx-seperator-hr"></div>
           </div>
           <!-- Section title -->                        
           <ul class="project-description-list">
-            <li>Client:<span>Virtus Co.</span></li>
-            <li>Value:<span>$400,000</span></li>
-            <li>Location:<span>Paradise View CA 9403</span></li>
-            <li>Area:<span>500,435 m<sup>2</sup></span></li>
-            <li>Contractor:<span>Vacation Ltd.</span></li>
-            <li>Completed Year:<span>2015</span></li>                        
+            <?php while( have_rows('parametrs') ): the_row();?>
+              <li><?php the_sub_field('parametr_title');?><span><?php the_sub_field('parametr_content');?></span></li>
+            <?php endwhile; ?>
           </ul>
         </div> 
+        <?php endif; ?>
       </div>
       <!-- EOF Project Details -->
     </div>
