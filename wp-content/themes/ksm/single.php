@@ -18,30 +18,26 @@
   <div class="jx-container jx-padding">
     <div class="container">
       <!-- Portfolio Slider-->
+      <?php if( have_rows('slider') ): ?> 
       <div class="eleven columns">            
         <div class="jx-protfolio-details">                            
           <div id="slider" class="flexslider">
             <ul class="slides">
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-1.jpg" alt=""></li>
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-2.jpg" alt=""></li>
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-3.jpg" alt=""></li>
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-4.jpg" alt=""></li>
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-5.jpg" alt=""></li>
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-w-6.jpg" alt=""></li>
+              <?php while( have_rows('slider') ): the_row();?>
+                <li><img src="<?php the_sub_field('slider_img');?>" alt=""></li>
+              <?php endwhile; ?>
             </ul>
           </div>
           <div id="carousel" class="flexslider">
             <ul class="slides">
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-1.jpg" alt=""></li>
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-2.jpg" alt=""></li>
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-3.jpg" alt=""></li>
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-4.jpg" alt=""></li>
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-5.jpg" alt=""></li>
-              <li><img src="<?php bloginfo('template_url'); ?>/images/portfolio-s-6.jpg" alt=""></li>
+              <?php while( have_rows('slider') ): the_row();?>
+                <li><img src="<?php the_sub_field('slider_img');?>" alt=""></li>
+              <?php endwhile; ?>
             </ul>
           </div>          
         </div>
       </div>
+      <?php endif; ?>
       <!-- EOF Portfolio Slider-->
       <!-- Project Details -->
       <div class="five columns">
