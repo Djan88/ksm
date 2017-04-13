@@ -7944,3 +7944,18 @@ div.ppt
 {
   display: none!important;
 }
+.resent_title 
+{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 23px;
+    border-radius: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+a:hover .resent_title
+{
+  color: #ffb300;
+}
