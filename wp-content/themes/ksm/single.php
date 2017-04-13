@@ -69,27 +69,32 @@
       </div>
       <!-- EOF Project Details -->
     </div>
-  </div>        
+  </div>
+  <?php if (get_field('recent_tech');) { ?>
   <div class="jx-container no-top-padding">
     <div class="container">
       <div class="sixteen columns">
         <div class="jx-partner-logo">         
           <div class="jx-section-title-2">
-            <div class="jx-title jx-uppercase">Project Partners</div>
+            <div class="jx-title jx-uppercase">Похожая спецтехника</div>
             <div class="jx-seperator-hr"></div>
           </div>      
           <ul>
-            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-1.png" alt=""/></a></li>
-            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-2.png" alt="" /></a></li>
-            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-3.png" alt=""/></a></li>
-            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-4.png" alt=""/></a></li>
-            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-5.png" alt=""/></a></li>
-            <li><a href="#"><img src="<?php bloginfo('template_url'); ?>/images/logo-6.png" alt=""/></a></li>
+          <?php 
+            $posts = get_field('recent_tech');
+          if( $posts ): ?>
+              <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+                  <?php setup_postdata($post); ?>
+                  <li><a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail');?></a></li>
+              <?php endforeach; ?>
+              <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+          <?php endif; ?>
           </ul>
         </div>
       </div>
     </div>        
   </div>
+  <?php } ?>
   <!-- EOF Project Partners -->   
 </div>
 <?php endwhile; else: ?>
